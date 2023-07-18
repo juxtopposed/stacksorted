@@ -40,7 +40,7 @@
       </svg>
         
       
-    <a href="#" class="btn">Add a Site</a>
+    <a href="https://forms.gle/3zEd1uaPPm6NSXyCA" class="btn">Add a Site</a>
   </nav>
   <h1 class="sparkle-heading">Find Inspiration in Design Elements.</h1>
   <p>Choose an element from the sidebar. Find websites/projects with creative design/code for that element.</p>

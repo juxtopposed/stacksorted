@@ -388,7 +388,9 @@ aside {
 	flex-wrap: wrap;
 }
 
-
+.footer-col1 {
+	width: 15%; line-height: 1.5;
+}
 
 
 
@@ -447,5 +449,14 @@ aside {
 
 	.modal {
 		width: 80%;
+	}
+
+	.footer-col1 {
+		width: 100%;
+	}
+
+	.footer-content {
+		margin-bottom: 5em;
+		flex-direction: column;
 	}
 }

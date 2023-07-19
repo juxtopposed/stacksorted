@@ -10,14 +10,15 @@ If there's a feature you'd like to see, [open an issue](https://github.com/juxto
 ## Adding a site
 We add sites and categories mainly to [database.js](src/database.js). 
 
-There are up to 4 properties you can specify for each site: 
+There are up to 5 properties you can specify for each site: 
 
 ```
 {
           name: "Site/Project/Design Name",
           url: "https://example.com",
           code: "link to code implementation of the design (if existing, preferrably on Codepen)",
-          image: "./images/{category}-{number}.png",
+          image: "/images/{category}-{number}.png",
+          gif: "/images/{category}-{image-number}.gif",
 },
 ```
 
@@ -27,6 +28,7 @@ There are up to 4 properties you can specify for each site:
 3. You can add the images to `public/images`. 
 4. There is a naming convention for images too: {category}-{number}.png
 The number follows the last existing image number. If you're adding the first site in a category, e.g., grainy, then it'd be grainy-1.png, followed by grainy-2.png, and so on.
+5. A GIF is added when it's helpful to show a preview animation of the element. It must have the same number as the image. This GIF will show in the modal only.
 
 
 Thank you for checking the project out!

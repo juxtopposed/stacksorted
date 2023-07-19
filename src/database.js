@@ -83,27 +83,32 @@ export const websiteData = {
           name: "Oaks Lane",
           url: "https://oakslane.ch/en",
           image: "/images/links-1.png",
+          gif: "/images/links-1.gif",
         },
         {
           name: "Hackernoon",
           url: "https://hackernoon.com/",
           image: "/images/links-2.png",
+          gif: "/images/links-2.gif",
         },
         {
           name: "Realtime Colors",
           url: "https://realtimecolors.com/",
           code: "https://codepen.io/Juxtopposed/pen/poQVrPX",
           image: "/images/links-3.png",
+          gif: "/images/links-3.gif",
         },
         {
           name: "UBAC Store",
           url: "https://ubac-store.com/en/",
           image: "/images/links-4.png",
+          gif: "/images/links-4.gif",
         },
         {
           name: "Awwwards",
           url: "https://www.awwwards.com/",
           image: "/images/links-5.png",
+          gif: "/images/links-5.gif",
         },
     ],
     grids: [

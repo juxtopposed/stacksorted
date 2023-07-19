@@ -5,6 +5,7 @@
   export let websiteName;
   export let websiteUrl;
   export let websiteCode;
+  export let websiteGif;
   export let closeModal;
 
 
@@ -36,7 +37,8 @@
         <h3>{websiteName}</h3>
         <button class="close-button" on:click={closeModal}>esc</button>
       </div>
-      <img src={websiteImage} alt={websiteName} class="img-big"/>
+      <img src={websiteGif ? websiteGif : websiteImage} alt={websiteName} class="img-big"/>
+
 
       <div class="card-info">
         

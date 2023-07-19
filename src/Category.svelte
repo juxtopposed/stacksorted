@@ -84,6 +84,7 @@
         websiteName={currentWebsite.name}
         websiteUrl={currentWebsite.url}
         websiteCode={currentWebsite.code}
+        websiteGif={currentWebsite.gif}
         closeModal={closeOverlay}
       />
     {/if}

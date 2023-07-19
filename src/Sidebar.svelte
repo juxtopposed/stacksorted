@@ -11,11 +11,11 @@
 
   const categories = Object.keys(websiteData.categories);
 
-  const path = window.location.pathname.replace('/', '');
+  const path = window.location.pathname.split('/')[1];
   activeCategory = categories.includes(path) ? path : categories[0];
 
   window.addEventListener('popstate', () => {
-    const path = window.location.pathname.replace('/', '');
+    const path = window.location.pathname.split('/')[1];
     activeCategory = categories.includes(path) ? path : categories[0];
   });
 

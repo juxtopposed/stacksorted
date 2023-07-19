@@ -12,6 +12,15 @@
     props: { category },
   }));
 
+  const modalRoute = {
+    path: '/:category/:siteName?',
+    component: Category,
+    props: (params) => ({
+      category: params.category,
+      siteName: params.siteName || null,
+    }),
+  };
+
   $: if (!window.location.pathname.startsWith('/')) {
     window.location.href = `/${defaultCategory}`;
   }
@@ -27,10 +36,11 @@
 </script>
 
 <Router>
+  <!-- Use the dynamic route for modals -->
+  <Route {...modalRoute} />
   {#each routes as { path, component, props }}
     <Route path={path} component={component} {...props} />
   {/each}
 </Router>
-
 
 

@@ -245,6 +245,16 @@ nav {
 }
 
 
+.empty-code {
+	border: 1px dashed var(--accent-a2);
+	background-color: var(--secondary);
+}
+
+.empty-code:hover {
+	background-color: var(--accent);
+	color: var(--background);
+}
+
 
 /* sidebar */
 

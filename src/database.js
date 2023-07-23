@@ -181,6 +181,14 @@ export const websiteData = {
         image: "/images/cursor-5.png",
       },
     ],
+    cards: [
+      {
+        name: "Musa",
+        url: "https://musa.dikson.xyz/",
+        code: "https://github.com/diksown/musa/blob/main/frontend/src/Components/Card.js",
+        image: "/images/cards-1.png",
+      },
+    ],
   }
 };
   

@@ -49,19 +49,3 @@
     </button>
   {/each}
 </aside>
-
-<style>
-  .option {
-    display: flex;
-  }
-
-  .show {
-    display: flex !important;
-  }
-
-  @media only screen and (max-width: 660px) {
-    .option:not(.active) {
-      display: none;
-    }
-  }
-</style>

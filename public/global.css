@@ -4,7 +4,8 @@
 	--text: rgb(244, 244, 244);
 	--background: rgb(22, 22, 22);
 	--primary: rgb(218, 237, 110);
-	--primary-a: rgba(218, 237, 110, 0.1);
+	--primary-a: rgba(218, 237, 110, 0.2);
+	--primary-a2: rgba(218, 237, 110, 0);
 	--secondary: rgb(0, 0, 0);
 	--secondary-a: rgba(0, 0, 0, 0.5);
 	--accent: rgb(255, 255, 255);
@@ -147,6 +148,29 @@ nav {
 }
 
 
+.menu-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 15px;
+}
+
+.note {
+	font-size: 14px; 
+	padding: 10px; 
+	border-radius: 20px; 
+	background-color: var(--primary); 
+	color: var(--background); 
+	box-shadow: 0 0 0 5px var(--primary-a);
+	animation: alert 2s infinite linear;
+}
+
+@keyframes alert {
+	0% {box-shadow: 0 0 0 0px var(--primary-a);}
+	80% {box-shadow: 0 0 0 8px var(--primary-a), 0 0 0 5px var(--primary-a);}
+	100% {box-shadow: 0 0 0 8px var(--primary-a2), 0 0 0 10px var(--primary-a2);}
+}
 
 
 
@@ -315,6 +339,9 @@ aside {
   	background-color: var(--primary-l);
 }
 
+.show {
+    display: flex !important;
+}
 
 
 
@@ -425,13 +452,9 @@ aside {
 		border-radius: 0;
 	}
 
-	.option {
+	.option:not(.active) {
 		display: none;
-	}
-
-	.option.active {
-		display: flex;
-	}
+	  }
 
 	.main-grid {
 		grid-template-columns: repeat(auto-fit, minmax(340px, 370px));
@@ -470,5 +493,9 @@ aside {
 	.footer-content {
 		margin-bottom: 5em;
 		flex-direction: column;
+	}
+
+	.note {
+		display: none;
 	}
 }

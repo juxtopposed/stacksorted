@@ -5,6 +5,7 @@ export const websiteData = {
         name: "Flowchef",
         url: "https://www.flowchef.co/",
         image: "/images/buttons-1.png",
+        code: "https://codepen.io/ThunderFound/pen/QWJBQwo",
       },
       {
         name: "Rednecks",
@@ -42,6 +43,7 @@ export const websiteData = {
         name: "Sonderegger",
         url: "https://www.sonderegger.ch/en",
         image: "/images/buttons-8.png",
+        code: "https://codepen.io/kalisnetwork/pen/dyQqPzY",
       },
       {
         name: "AM-ARC",
@@ -90,6 +92,41 @@ export const websiteData = {
         image: "/images/buttons-17.png",
         gif: "/images/buttons-17.gif",
       },
+      {
+        name: "CodeDotSpirit",
+        url: "https://codedotspirit.dev/",
+        image: "/images/buttons-18.png",
+        gif: "/images/buttons-18.gif",
+      },
+      {
+        name: "Poppr 1",
+        url: "https://www.poppr.be/",
+        image: "/images/buttons-19.png",
+        gif: "/images/buttons-19.gif",
+      },
+      {
+        name: "Poppr 2",
+        url: "https://www.poppr.be/",
+        image: "/images/buttons-20.png",
+        gif: "/images/buttons-20.gif",
+      },
+      {
+        name: "Chronicle HQ",
+        url: "https://chroniclehq.com/",
+        image: "/images/buttons-21.png",
+        gif: "/images/buttons-21.gif",
+      },
+      {
+        name: "Nuxt",
+        url: "https://nuxt.com/",
+        image: "/images/buttons-22.png",
+      },
+      {
+        name: "App Embed",
+        url: "https://appembed.netlify.app/#generate",
+        image: "/images/buttons-23.png",
+        gif: "/images/buttons-23.gif",
+      },
     ],
     "links": [
       {
@@ -116,6 +153,7 @@ export const websiteData = {
         url: "https://ubac-store.com/en/",
         image: "/images/links-4.png",
         gif: "/images/links-4.gif",
+        code: "https://codepen.io/kalisnetwork/pen/yLQxNQY",
       },
       {
         name: "Awwwards",
@@ -128,6 +166,18 @@ export const websiteData = {
         url: "https://www.jtbstudios.com.au/",
         image: "/images/links-6.png",
         gif: "/images/links-6.gif",
+      },
+      {
+        name: "Mack & Pouya",
+        url: "https://mackpouya.webflow.io//",
+        image: "/images/links-7.png",
+        gif: "/images/links-7.gif",
+      },
+      {
+        name: "Poppr",
+        url: "https://www.poppr.be/",
+        image: "/images/links-8.png",
+        gif: "/images/links-8.gif",
       },
     ],
     "grids": [
@@ -175,6 +225,27 @@ export const websiteData = {
         name: "Vape",
         url: "https://www.vape.gg/",
         image: "/images/grids-9.png",
+      },
+      {
+        name: "CodeDotSpirit",
+        url: "https://codedotspirit.dev/",
+        image: "/images/grids-10.png",
+        gif: "/images/grids-10.gif",
+      },
+      {
+        name: "Johannes Iilahti",
+        url: "https://johannesiilahti.com/",
+        image: "/images/grids-11.png",
+      },
+      {
+        name: "Raycast",
+        url: "https://www.raycast.com/",
+        image: "/images/grids-12.png",
+      },
+      {
+        name: "Diagram",
+        url: "https://diagram.com/",
+        image: "/images/grids-13.png",
       },
     ],
     "custom-cursor": [
@@ -226,6 +297,12 @@ export const websiteData = {
         image: "/images/cursor-8.png",
         gif: "/images/cursor-8.gif",
       },
+      {
+        name: "Yuu Dev",
+        url: "https://yuukun.dev/",
+        image: "/images/cursor-9.png",
+        gif: "/images/cursor-9.gif",
+      },
     ],
     "progress-bar": [
       {
@@ -240,6 +317,12 @@ export const websiteData = {
         image: "/images/progress-bar-2.png",
         gif: "/images/progress-bar-2.gif",
       },
+      {
+        name: "Thomas Bosc",
+        url: "https://thomasbosc.com/",
+        image: "/images/progress-bar-3.png",
+        gif: "/images/progress-bar-3.gif",
+      },
     ],
     "loading-animation": [
       {
@@ -249,10 +332,10 @@ export const websiteData = {
         gif: "/images/loading-1.gif",
       },
       {
-        name: "Outdated",
-        url: "https://www.outdated.site/",
-        image: "/images/loading-2.png",
-        gif: "/images/loading-2.gif",
+        name: "Minh Pham",
+        url: "https://minhpham.design/",
+        image: "/images/loading-3.png",
+        gif: "/images/loading-3.gif",
       },
     ],
     "cards": [
@@ -265,6 +348,12 @@ export const websiteData = {
         name: "Croma",
         url: "https://wearecroma.it/",
         image: "/images/cards-2.png",
+      },
+      {
+        name: "Nuxt",
+        url: "https://nuxt.com/",
+        image: "/images/cards-3.png",
+        gif: "/images/cards-3.gif",
       },
     ],
     "text-effects": [
@@ -279,6 +368,12 @@ export const websiteData = {
         url: "https://minhpham.design/",
         image: "/images/text-effects-2.png",
         gif: "/images/text-effects-2.gif",
+      },
+      {
+        name: "Chronicle HQ",
+        url: "https://chroniclehq.com/",
+        image: "/images/text-effects-3.png",
+        gif: "/images/text-effects-3.gif",
       },
     ],
     "hover-effects": [
@@ -296,6 +391,53 @@ export const websiteData = {
         image: "/images/hamburger-menu-1.png",
         gif: "/images/hamburger-menu-1.gif",
       },
+      {
+        name: "Poppr",
+        url: "https://www.poppr.be/",
+        image: "/images/hamburger-menu-2.png",
+        gif: "/images/hamburger-menu-2.gif",
+      },
+    ],
+    "image-effects": [
+      {
+        name: "Outdated",
+        url: "https://www.outdated.site/",
+        image: "/images/image-effects-1.png",
+        gif: "/images/image-effects-1.gif",
+      },
+    ],
+    "border-effects": [
+      {
+        name: "Raycast",
+        url: "https://www.raycast.com/",
+        image: "/images/border-effects-1.png",
+      },
+      {
+        name: "Poppr",
+        url: "https://www.poppr.be/",
+        image: "/images/border-effects-2.png",
+        gif: "/images/border-effects-2.gif",
+      },
+      {
+        name: "Nuxt",
+        url: "https://nuxt.com/",
+        image: "/images/border-effects-3.png",
+        gif: "/images/border-effects-3.gif",
+      },
+    ],
+    "interactive-elements": [
+      {
+        name: "Superlist",
+        url: "https://www.superlist.com/ ",
+        image: "/images/interactive-1.png",
+        gif: "/images/interactive-1.gif",
+      },
+      {
+        name: "Thomas Bosc",
+        url: "https://thomasbosc.com/",
+        image: "/images/interactive-2.png",
+        gif: "/images/interactive-2.gif",
+      },
     ],
     "3D": [
       {
@@ -303,6 +445,12 @@ export const websiteData = {
         url: "https://www.kubota.com/futurecube/",
         image: "/images/3d-1.png",
         gif: "/images/3d-1.gif",
+      },
+      {
+        name: "Thomas Bosc",
+        url: "https://thomasbosc.com/",
+        image: "/images/3d-2.png",
+        gif: "/images/3d-2.gif",
       },
     ],
   }

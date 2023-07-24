@@ -40,8 +40,10 @@
         <rect y="36.2727" width="90.9091" height="27.2727" rx="8" fill="#FAFAFA"/>
       </svg>
         
-      
-    <a href="https://forms.gle/9ruKMLksn98LVd4K9" target="_blank" class="btn">Add a Site</a>
+      <div class="menu-right">
+        <span class="note">Collection updating every 24h. Join in!</span>
+        <a href="https://forms.gle/9ruKMLksn98LVd4K9" target="_blank" class="btn">Add a Site</a>
+      </div>
   </nav>
   <h1 class="sparkle-heading">Find Inspiration in Design Elements.</h1>
   <p>Collection of the web's best designs sorted by elements. Choose an element and view projects/websites with creative designs for it.</p>

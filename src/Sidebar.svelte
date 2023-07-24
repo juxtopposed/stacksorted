@@ -11,7 +11,7 @@
 
   function capitalize(str) {
     return str
-      .split(/(?=[A-Z])/)
+      .split(/-|\s/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
   }
@@ -24,7 +24,7 @@
   function handlePopstate() {
     path = window.location.pathname.split("/")[1];
     activeCategory = categories.includes(path) ? path : categories[0];
-  }
+  };
 </script>
 
 <svelte:window

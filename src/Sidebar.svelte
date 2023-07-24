@@ -1,58 +1,67 @@
 <script>
-  import { navigate } from 'svelte-routing';
-  import { websiteData } from './database';
+  import { navigate } from "svelte-routing";
+  import { websiteData } from "./database";
 
-  let activeCategory = 'buttons';
+  const categories = Object.keys(websiteData.categories);
+  let path = window.location.pathname.split("/")[1];
+  let activeCategory = categories.includes(path) ? path : categories[0];
+
+  let optionButtons = [];
+  let showButtons = false;
+
+  function capitalize(str) {
+    return str
+      .split(/(?=[A-Z])/)
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  }
 
   function selectCategory(category) {
     activeCategory = category;
     navigate(`/${category}`);
   }
 
-  const categories = Object.keys(websiteData.categories);
-
-  const path = window.location.pathname.split('/')[1];
-  activeCategory = categories.includes(path) ? path : categories[0];
-
-  window.addEventListener('popstate', () => {
-    const path = window.location.pathname.split('/')[1];
+  function handlePopstate() {
+    path = window.location.pathname.split("/")[1];
     activeCategory = categories.includes(path) ? path : categories[0];
-  });
-
-  function capitalize(str) {
-    return str
-      .split(/(?=[A-Z])/)
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ');
   }
-
-  let displayOptions = false;
-
-  function toggleOptions() {
-    if (window.innerWidth <= 660) {
-      displayOptions = !displayOptions;
-
-      const buttons = document.querySelectorAll('.option');
-
-      buttons.forEach((button) => {
-        if (!button.classList.contains('active')) {
-          button.style.display = displayOptions ? 'flex' : 'none';
-        }
-      });
-    }
-  }
-  
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<aside on:click={toggleOptions}>
-  {#each categories as category}
+<svelte:window
+  on:resize={() => (showButtons = false)}
+  on:popstate={handlePopstate}
+/>
+
+<aside
+  on:click={() => (showButtons = !showButtons)}
+  on:keydown={() => (showButtons = !showButtons)}
+>
+  {#each categories as category, index}
     <button
       class="option"
       class:active={activeCategory === category}
+      class:show={showButtons}
       on:click={() => selectCategory(category)}
+      on:keydown={() => selectCategory(category)}
+      bind:this={optionButtons[index]}
     >
-    {capitalize(category)}
+      {capitalize(category)}
     </button>
   {/each}
 </aside>
+
+<style>
+  .option {
+    display: flex;
+  }
+
+  .show {
+    display: flex !important;
+  }
+
+  @media only screen and (max-width: 660px) {
+    .option:not(.active) {
+      display: none;
+    }
+  }
+</style>

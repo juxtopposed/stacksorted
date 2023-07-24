@@ -233,7 +233,7 @@ nav {
 .img-big {
 	width: auto;
 	height: auto;
-	max-width: 1000px;
+	max-width: 100%;
 	max-height: 600px;
 	border-radius: 10px;
 }
@@ -294,6 +294,7 @@ aside {
 	align-items: center;
 	gap: 10px;
 	min-width: 200px;
+	
 }
 
 .option {
@@ -450,6 +451,8 @@ aside {
 		box-sizing: border-box;
 		background-color: var(--secondary);
 		border-radius: 0;
+		overflow-y: scroll;
+		max-height: 100vh;
 	}
 
 	.option:not(.active) {
@@ -498,4 +501,5 @@ aside {
 	.note {
 		display: none;
 	}
+
 }

@@ -64,7 +64,7 @@
       {#each websites as website}
         <button class="website-card" on:click={() => showOverlay(website)}>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <img src={website.image} alt={website.name} class="website-image"/>
+          <img src={website.image} alt={website.name} class="website-image" loading="lazy"/>
           <div class="card-info">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <h2>{website.name}</h2>

@@ -1,5 +1,7 @@
 <script>
   import { onMount } from 'svelte';
+  import LoadingAnimation from './Loading.svelte';
+  let imageLoaded = false;
     
   export let websiteImage;
   export let websiteName;
@@ -34,12 +36,23 @@
     }
   }
 
+  const handleImageLoad = () => {
+    imageLoaded = true;
+  };
+
   onMount(() => {
+    const image = new Image();
+    image.src = websiteGif ? websiteGif : websiteImage;
+    image.onload = handleImageLoad;
+
     document.addEventListener('keydown', handleKeyDown);
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
   });
+
+
+
 </script>
   
 <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -47,10 +60,30 @@
     <div class="modal">
       <div class="card-info">
         <h2><a href="{websiteUrl}" rel="ugc" target="_blank">{websiteName}</a></h2>
-        <button class="close-button" on:click={closeModal}>esc</button>
-      </div>
-      <img src={websiteGif ? websiteGif : websiteImage} alt={websiteName} class="img-big"/>
+        <div class="modal-nav">
 
+          <svg on:click={prevModal} class="modal-nav-button" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.7413 19.422L7.70703 14.3879L12.7413 9.35359" stroke="white"/>
+            <path d="M7.89587 14.3878L22.442 14.3878" stroke="white"/>
+          </svg>
+            
+          
+          <svg on:click={nextModal} class="modal-nav-button" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.7011 9.35359L21.7354 14.3878L16.7011 19.422" stroke="white"/>
+            <path d="M21.5465 14.3878H7.00037" stroke="white"/>
+          </svg>
+            
+          
+          <button class="modal-nav-button" on:click={closeModal}>esc</button>
+
+        </div>
+      </div>
+
+      {#if !imageLoaded}
+        <LoadingAnimation />
+      {:else}
+        <img src={websiteGif ? websiteGif : websiteImage} alt={websiteName} class="img-big" />
+      {/if}
 
       <div class="card-info">
         

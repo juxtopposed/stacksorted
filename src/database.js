@@ -127,6 +127,12 @@ export const websiteData = {
         image: "/images/buttons-23.png",
         gif: "/images/buttons-23.gif",
       },
+      {
+        name: "Kaploom",
+        url: "https://www.kaploom.com/",
+        image: "/images/buttons-24.png",
+        gif: "/images/buttons-24.gif",
+      },
     ],
     "links": [
       {
@@ -303,6 +309,12 @@ export const websiteData = {
         image: "/images/cursor-9.png",
         gif: "/images/cursor-9.gif",
       },
+      {
+        name: "Kaploom",
+        url: "https://www.kaploom.com/",
+        image: "/images/cursor-10.png",
+        gif: "/images/cursor-10.gif",
+      },
     ],
     "progress-bar": [
       {
@@ -381,6 +393,12 @@ export const websiteData = {
         image: "/images/text-effects-3.png",
         gif: "/images/text-effects-3.gif",
       },
+      {
+        name: "Kaploom",
+        url: "https://www.kaploom.com/",
+        image: "/images/text-effects-4.png",
+        gif: "/images/text-effects-4.gif",
+      },
     ],
     "hover-effects": [
       {
@@ -388,12 +406,6 @@ export const websiteData = {
         url: "https://qu.ai/#articles",
         image: "/images/hover-effects-1.png",
         gif: "/images/hover-effects-1.gif",
-      },
-      {
-        name: "Kaploom",
-        url: "https://www.kaploom.com/",
-        image: "/images/hover-effects-2.png",
-        gif: "/images/hover-effects-2.gif",
       },
     ],
     "hamburger-menu": [

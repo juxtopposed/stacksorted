@@ -1,1 +1,0 @@
-<div class="loading-spinner"></div>

@@ -94,7 +94,7 @@ h1.sparkle-heading {
 	}
 }
 
-h3 {
+h2 {
 	color: var(--text);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
@@ -103,7 +103,7 @@ h3 {
 	cursor: pointer;
 }
 
-h3:hover {
+h2:hover {
   	color: var(--primary);
 }
 

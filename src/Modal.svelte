@@ -46,7 +46,7 @@
 <div class="modal-overlay" on:click|stopPropagation={handleOverlayClick}>
     <div class="modal">
       <div class="card-info">
-        <h3><a href="{websiteUrl}" rel="ugc" target="_blank">{websiteName}</a></h3>
+        <h2><a href="{websiteUrl}" rel="ugc" target="_blank">{websiteName}</a></h2>
         <button class="close-button" on:click={closeModal}>esc</button>
       </div>
       <img src={websiteGif ? websiteGif : websiteImage} alt={websiteName} class="img-big"/>

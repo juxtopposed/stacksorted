@@ -67,7 +67,7 @@
           <img src={website.image} alt={website.name} class="website-image"/>
           <div class="card-info">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <h3>{website.name}</h3>
+            <h2>{website.name}</h2>
             <div class="outbound-cont">
                 {#if website.code && website.code !== null}
                     <a href="{website.code}" target="_blank" class="outbound code-link" on:click|stopPropagation>

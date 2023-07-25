@@ -423,20 +423,24 @@ aside {
 /* loading spinner */
 .loading-spinner {
 	display: inline-block;
-	width: 50px;
-	height: 50px;
-	border: 2px solid #ccc;
-	border-top: 5px solid var(--primary);
+	width: 2rem;
+	height: 2rem;
+	margin: 2rem;
 	border-radius: 50%;
-	animation: spin 1s linear infinite;
+	border: 0.3rem solid var(--primary);
+	transform: translate(50%);
+	animation: 1s ripple ease-out infinite;
 }
-
-@keyframes spin {
-	0% {
-	  transform: rotate(0deg);
+  
+@keyframes ripple {
+	from {
+	  transform: scale(0);
+	  opacity: 1;
 	}
-	100% {
-	  transform: rotate(360deg);
+  
+	to {
+	  transform: scale(1);
+	  opacity: 0;
 	}
 }
 

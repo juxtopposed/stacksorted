@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import LoadingAnimation from './Loading.svelte';
+
   let imageLoaded = false;
     
   export let websiteImage;
@@ -80,7 +80,7 @@
       </div>
 
       {#if !imageLoaded}
-        <LoadingAnimation />
+        <img src={websiteImage} alt={websiteName} class="img-big" />
       {:else}
         <img src={websiteGif ? websiteGif : websiteImage} alt={websiteName} class="img-big" />
       {/if}

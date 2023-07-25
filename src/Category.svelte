@@ -61,10 +61,10 @@
   
 <main>
     <div class="main-grid">
-      {#each websites as website}
+      {#each websites as website, website_index}
         <button class="website-card" on:click={() => showOverlay(website)}>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <img src={website.image} alt={website.name} class="website-image" loading="lazy"/>
+          <img src={website.image} alt={website.name} class="website-image" loading={website_index < 2 ? "eager" : "lazy"}/>
           <div class="card-info">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <h2>{website.name}</h2>

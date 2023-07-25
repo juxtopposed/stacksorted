@@ -334,6 +334,12 @@ export const websiteData = {
       {
         name: "Minh Pham",
         url: "https://minhpham.design/",
+        image: "/images/loading-2.png",
+        gif: "/images/loading-2.gif",
+      },
+      {
+        name: "Edwardh",
+        url: "https://www.edwardh.io/",
         image: "/images/loading-3.png",
         gif: "/images/loading-3.gif",
       },
@@ -382,6 +388,12 @@ export const websiteData = {
         url: "https://qu.ai/#articles",
         image: "/images/hover-effects-1.png",
         gif: "/images/hover-effects-1.gif",
+      },
+      {
+        name: "Kaploom",
+        url: "https://www.kaploom.com/",
+        image: "/images/hover-effects-2.png",
+        gif: "/images/hover-effects-2.gif",
       },
     ],
     "hamburger-menu": [
@@ -452,8 +464,18 @@ export const websiteData = {
         image: "/images/3d-2.png",
         gif: "/images/3d-2.gif",
       },
+      {
+        name: "Active Theory",
+        url: "https://activetheory.com/",
+        image: "/images/3d-3.png",
+        gif: "/images/3d-3.gif",
+      },
+      {
+        name: "Joshua's World",
+        url: "https://www.joshuas.world/",
+        image: "/images/3d-4.png",
+        gif: "/images/3d-4.gif",
+      },
     ],
-  }
+  },
 };
-  
-  

@@ -40,6 +40,21 @@
       history.pushState(null, null, `/${category}`);
     }
 
+    function nextModal(){
+      const index = websites.indexOf(currentWebsite);
+      const nextIndex = index + 1;
+      if (nextIndex < websites.length) {
+        showOverlay(websites[nextIndex]);
+      }
+    }
+    
+    function prevModal (){
+      const index = websites.indexOf(currentWebsite);
+      const prevIndex = index - 1;
+      if (prevIndex >= 0) {
+        showOverlay(websites[prevIndex]);
+      }
+    }
     
     
 </script>
@@ -86,6 +101,8 @@
         websiteCode={currentWebsite.code}
         websiteGif={currentWebsite.gif}
         closeModal={closeOverlay}
+        nextModal = {nextModal}
+        prevModal = {prevModal}
       />
     {/if}
 </main>

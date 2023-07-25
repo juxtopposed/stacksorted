@@ -7,6 +7,8 @@
   export let websiteCode;
   export let websiteGif;
   export let closeModal;
+  export let nextModal;
+  export let prevModal;  
 
 
   function handleOverlayClick(event) {
@@ -17,9 +19,19 @@
   }
 
   function handleKeyDown(event) {
-    if (event.key === 'Escape') {
-      closeModal();
-    } 
+    switch (event.key) {
+      case 'Escape':
+        closeModal();
+        break;
+      case 'ArrowRight':
+        nextModal()
+        break;
+      case 'ArrowLeft':
+        prevModal()
+        break;
+      default:
+        break;
+    }
   }
 
   onMount(() => {

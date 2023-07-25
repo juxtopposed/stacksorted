@@ -3,6 +3,8 @@
     import Sidebar from './Sidebar.svelte';
     import Routes from './Routes.svelte';
     import Footer from './Footer.svelte';
+
+    import BackToTopButton from './scrollToTop.svelte';
 </script>
   
 <main>
@@ -12,6 +14,7 @@
         <Routes />
     </div>
     <Footer />
+    <BackToTopButton />
 </main>
 
 <style>

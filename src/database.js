@@ -488,6 +488,19 @@ export const websiteData = {
         image: "/images/3d-4.webp",
         gif: "/images/3d-4g.webp",
       },
+
     ],
+    "forms": [
+      {
+        name: "Stripe",
+        url: "https://dashboard.stripe.com/register",
+        image: "/images/forms-1.webp",
+      },
+      {
+        name: "Metropolis Moving",
+        url: "https://metropolismoving.com/nyc-moving-price-quote",
+        image: "/images/forms-2.webp",
+      }
+    ]
   },
 };

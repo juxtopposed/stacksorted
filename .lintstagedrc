@@ -1,0 +1,4 @@
+{
+	"*.{ts,svelte,md}": ["prettier --write \"**/*.{ts,svelte,md}\" --cache"],
+	"*.{ts,svelte}": ["eslint --fix ."]
+}

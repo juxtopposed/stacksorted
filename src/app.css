@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Ubuntu:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--text: 244 244 244;
+	--background: 22 22 22;
+	--primary: 218 237 110;
+
+	--accent-a2: rgba(255, 255, 255, 0.3);
+	--accent-a: rgba(255, 255, 255, 0.15);
+	--accent: rgb(255, 255, 255);
+	--secondary: rgb(0, 0, 0);
+	--secondary-a: rgba(0, 0, 0, 0.5);
+	--primary-a: rgba(218, 237, 110, 0.2);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-background font-ubuntu text-text;
+}
+
+*::selection {
+	@apply bg-primary text-background;
+}
+
+*::-webkit-scrollbar {
+	@apply h-2 w-2;
+}
+
+*::-webkit-scrollbar-track {
+	@apply bg-zinc-700;
+}
+
+*::-webkit-scrollbar-thumb {
+	@apply bg-primary;
+}

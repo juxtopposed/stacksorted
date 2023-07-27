@@ -1,0 +1,47 @@
+<script>
+	import Sidebar from '$components/Sidebar.svelte';
+	import Footer from '$components/Footer.svelte';
+	import Navbar from '$components/Navbar.svelte';
+	import ScrollToTop from '$components/ScrollToTop.svelte';
+	import { siteConfig } from '$lib/site-config';
+
+	import '../app.css';
+</script>
+
+<svelte:head>
+	<title>{siteConfig.title}</title>
+	<meta name="description" content={siteConfig.description} />
+</svelte:head>
+
+<main class="layout flex min-h-screen w-full flex-col gap-3 p-4">
+	<Navbar />
+
+	<div class="flex w-full gap-2 lg:gap-5">
+		<Sidebar />
+
+		<slot />
+	</div>
+
+	<Footer />
+
+	<ScrollToTop />
+</main>
+
+<style>
+	/* https://github.com/jvidalv/nextal/blob/main/src/components/organisms/layout/layout.module.css */
+
+	.layout {
+		background-image: radial-gradient(hsla(0, 0%, 84%, 0.25) 1px, transparent 0),
+			radial-gradient(hsla(0, 0%, 65%, 0.2) 1px, transparent 0);
+		background-size: 50px 50px;
+		background-position: 0 0, 25px 25px;
+		-webkit-animation: slide 2s linear infinite;
+		animation: slide 4s linear infinite;
+	}
+
+	@keyframes slide {
+		100% {
+			background-position: 50px 0, 125px 25px;
+		}
+	}
+</style>

@@ -35,7 +35,7 @@
 
 <dialog
 	bind:this={modal}
-	class="space-y-4 rounded-xl border border-zinc-600 bg-background p-5 text-text backdrop:bg-black/50 backdrop:backdrop-blur"
+	class="min-h-fit min-w-[600px] space-y-4 rounded-xl border border-zinc-600 bg-background p-5 text-text backdrop:bg-black/50 backdrop:backdrop-blur"
 >
 	<div class="flex w-full items-center justify-between gap-5">
 		<h2>

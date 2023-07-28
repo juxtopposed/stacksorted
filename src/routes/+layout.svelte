@@ -13,7 +13,7 @@
 	<meta name="description" content={siteConfig.description} />
 </svelte:head>
 
-<main class="layout flex min-h-screen w-full flex-col gap-3 p-4">
+<main class="layout flex min-h-screen w-full flex-col gap-3 bg-fixed p-4">
 	<Navbar />
 
 	<div class="flex w-full gap-2 lg:gap-5">

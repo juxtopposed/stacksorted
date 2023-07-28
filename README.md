@@ -38,3 +38,5 @@ There are up to 5 properties you can specify for each site:
 7. GIF should be as short as possible, only capturing the main effect/animation, so the file should not exceed 10MB.
 
 Thank you for checking the project out!
+
+<a href="https://www.producthunt.com/products/stack-sorted/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-stack&#0045;sorted" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=543544&theme=dark" alt="Stack&#0032;Sorted&#0046; - Find&#0032;Inspiration&#0032;in&#0032;Design&#0032;Elements&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>

@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { siteConfig } from '$lib/site-config';
 	import Sparkle from './Sparkle.svelte';
+	import Github from './icons/github.svelte';
 	import LogoMobile from './icons/logo-mobile.svelte';
 	import Logo from './icons/logo.svelte';
+	import Twitter from './icons/twitter.svelte';
 </script>
 
 <main class="flex flex-col items-center justify-start">
@@ -10,7 +12,7 @@
 		<svelte:component this={Logo} />
 		<svelte:component this={LogoMobile} />
 
-		<div class="flex items-center justify-end gap-4 font-medium">
+		<da class="flex items-center justify-end gap-4 font-medium">
 			<span class="note hidden rounded-full bg-primary p-2 text-sm text-background sm:block">
 				Collection updating every 24h. Join in!
 			</span>
@@ -22,7 +24,27 @@
 			>
 				Add a Site
 			</a>
-		</div>
+
+			<div class="h-10 w-[1px] bg-zinc-600" />
+
+			<div class="flex gap-2">
+				<a
+					href={siteConfig.links.github}
+					target="_blank"
+					class="rounded-md shadow-md shadow-black ring-zinc-700 ring-offset-2 ring-offset-background transition-all duration-200 hover:ring-2"
+				>
+					<svelte:component this={Github} className="h-10 w-10" />
+				</a>
+
+				<a
+					href={siteConfig.links.twitter}
+					target="_blank"
+					class="rounded-md shadow-md shadow-black ring-zinc-700 ring-offset-2 ring-offset-background transition-all duration-200 hover:ring-2"
+				>
+					<svelte:component this={Twitter} className="h-10 w-10" />
+				</a>
+			</div>
+		</da>
 	</nav>
 
 	<h1

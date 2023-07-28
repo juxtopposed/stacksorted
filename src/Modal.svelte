@@ -59,7 +59,7 @@
 <div class="modal-overlay" on:click|stopPropagation={handleOverlayClick}>
     <div class="modal">
       <div class="card-info">
-        <h3><a href="{websiteUrl}" target="_blank">{websiteName}</a></h3>
+        <h2><a href="{websiteUrl}" rel="ugc" target="_blank">{websiteName}</a></h2>
         <div class="modal-nav">
 
           <svg on:click={prevModal} class="modal-nav-button" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,7 +89,7 @@
         
         <!-- svelte-ignore missing-declaration -->
           {#if websiteCode && websiteCode !== null}
-            <a href="{websiteCode}" target="_blank" class="outbound code-link">
+            <a href="{websiteCode}" rel="ugc" target="_blank" class="outbound code-link">
               <span>Check Code</span>
               <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="30" height="29" rx="3" fill="transparent"/>
@@ -108,7 +108,7 @@
             </a>
           {/if}
 
-          <a href="{websiteUrl}" target="_blank" class="outbound">
+          <a href="{websiteUrl}" rel="ugc" target="_blank" class="outbound">
             <span>Visit Site</span>
             <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="30" height="29" rx="3" fill="transparent"/>

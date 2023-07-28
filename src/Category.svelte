@@ -61,16 +61,16 @@
   
 <main>
     <div class="main-grid">
-      {#each websites as website}
+      {#each websites as website, website_index}
         <button class="website-card" on:click={() => showOverlay(website)}>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <img src={website.image} alt={website.name} class="website-image"/>
+          <img src={website.image} alt={website.name} class="website-image" loading={website_index < 2 ? "eager" : "lazy"}/>
           <div class="card-info">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <h3>{website.name}</h3>
+            <h2>{website.name}</h2>
             <div class="outbound-cont">
                 {#if website.code && website.code !== null}
-                    <a href="{website.code}" target="_blank" class="outbound code-link" on:click|stopPropagation>
+                    <a href="{website.code}" aria-label="{website.name} code" rel="ugc" target="_blank" class="outbound code-link" on:click|stopPropagation>
                         <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <rect width="30" height="29" rx="3" fill="transparent"/>
                           <path d="M19 7L26 14L19 21" stroke="white"/>
@@ -80,7 +80,7 @@
                 {/if}
 
 
-                <a href="{website.url}" target="_blank" class="outbound" on:click|stopPropagation>
+                <a href="{website.url}" aria-label="{website.name} site" rel="ugc" target="_blank" class="outbound" on:click|stopPropagation>
                   <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="30" height="29" rx="3" fill="transparent"/>
                       <path d="M10.454 7.36396H23.182V20.0919" stroke="white"/>

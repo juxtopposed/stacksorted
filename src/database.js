@@ -74,6 +74,7 @@ export const websiteData = {
         name: "Starlight",
         url: "https://www.starlight.money/",
         image: "/images/buttons-14.webp",
+        code: "https://codepen.io/dccrhvmv/pen/mdQGgWV",
       },
       {
         name: "Clay",
@@ -109,6 +110,7 @@ export const websiteData = {
         url: "https://www.poppr.be/",
         image: "/images/buttons-20.webp",
         gif: "/images/buttons-20g.webp ",
+        code: "https://codepen.io/Quiddlee/pen/MWPbKxg",
       },
       {
         name: "Chronicle HQ",
@@ -465,6 +467,7 @@ export const websiteData = {
         url: "https://www.poppr.be/",
         image: "/images/hamburger-menu-2.webp",
         gif: "/images/hamburger-menu-2g.webp ",
+        code: "https://codepen.io/Quiddlee/pen/MWPbKxg",
       },
     ],
     "image-effects": [

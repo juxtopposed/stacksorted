@@ -133,6 +133,18 @@ export const websiteData = {
         image: "/images/buttons-24.webp",
         gif: "/images/buttons-24g.webp",
       },
+      {
+        name: "Bolt",
+        url: "https://www.bolt.com/",
+        image: "/images/buttons-25.webp",
+        gif: "/images/buttons-25g.webp",
+      },
+      {
+        name: "Studio Kingdom",
+        url: "https://studiokingdom.co.kr/en/",
+        image: "/images/buttons-26.webp",
+        gif: "/images/buttons-26g.webp",
+      },
     ],
     "links": [
       {
@@ -253,6 +265,16 @@ export const websiteData = {
         url: "https://diagram.com/",
         image: "/images/grids-13.webp",
       },
+      {
+        name: "Bolt",
+        url: "https://www.bolt.com/",
+        image: "/images/grids-14.webp",
+      },
+      {
+        name: "Railway",
+        url: "https://railway.app/careers",
+        image: "/images/grids-15.webp",
+      },
     ],
     "custom-cursor": [
       {
@@ -315,6 +337,23 @@ export const websiteData = {
         image: "/images/cursor-10.webp",
         gif: "/images/cursor-10g.webp ",
       },
+      {
+        name: "All Gold",
+        url: "https://allgold.com/",
+        image: "/images/cursor-11.webp",
+        gif: "/images/cursor-11g.webp ",
+      },
+      {
+        name: "Looksie",
+        url: "https://looskie.com/",
+        image: "/images/cursor-12.webp",
+      },
+      {
+        name: "Teamgeek",
+        url: "https://www.teamgeek.io/",
+        image: "/images/cursor-13.webp",
+        gif: "/images/cursor-13g.webp ",
+      },
     ],
     "progress-bar": [
       {
@@ -373,6 +412,12 @@ export const websiteData = {
         image: "/images/cards-3.webp",
         gif: "/images/cards-3g.webp ",
       },
+      {
+        name: "Riot Games",
+        url: "https://www.riotgames.com/en",
+        image: "/images/cards-4.webp",
+        gif: "/images/cards-4g.webp ",
+      },
     ],
     "text-effects": [
       {
@@ -429,6 +474,12 @@ export const websiteData = {
         image: "/images/image-effects-1.webp",
         gif: "/images/image-effects-1g.webp ",
       },
+      {
+        name: "Teamgeek",
+        url: "https://www.teamgeek.io/",
+        image: "/images/image-effects-2.webp",
+        gif: "/images/image-effects-2g.webp ",
+      },
     ],
     "border-effects": [
       {
@@ -447,6 +498,12 @@ export const websiteData = {
         url: "https://nuxt.com/",
         image: "/images/border-effects-3.webp",
         gif: "/images/border-effects-3g.webp ",
+      },
+      {
+        name: "Riot Games",
+        url: "https://www.riotgames.com/en",
+        image: "/images/border-effects-4.webp",
+        gif: "/images/border-effects-4g.webp ",
       },
     ],
     "interactive-elements": [

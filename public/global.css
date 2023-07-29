@@ -192,8 +192,39 @@ nav {
 
 .main-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(370px, 370px));
+	grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
 	gap: 15px;
+}
+
+@media screen and (max-width: 1345px) {
+	.main-grid {
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	}
+}
+
+@media screen and (max-width: 1261px) {
+	.main-grid {
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	}
+}
+
+@media screen and (max-width: 926px) {
+	.main-grid {
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	}
+}
+
+@media screen and (max-width: 846px) {
+	.main-grid {
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.main-grid {
+		grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+		justify-content: center;
+	}
 }
 
 .website-card {
@@ -221,13 +252,20 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
+	margin-top: auto;
 }
 
 .website-image {
 	border-radius: 5px;
-	width: 344px;
+	width: 100%;
 	height: 200px;
 	object-fit: cover;
+}
+
+@media screen and (max-width: 950px) {
+	.website-image {
+		height: auto;
+	}
 }
 
 .img-big {
@@ -257,6 +295,13 @@ nav {
 	padding: 5px 10px;
 	color: var(--text);
 	font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+	.outbound svg {
+		width: 25px;
+		height: 24px;
+	}
 }
 
 .outbound:hover {
@@ -512,15 +557,6 @@ aside {
 
 	.option:not(.active) {
 		display: none;
-	  }
-
-	.main-grid {
-		grid-template-columns: repeat(auto-fit, minmax(340px, 370px));
-		justify-content: center;
-	}
-
-	.website-image {
-		max-width: 100%;
 	}
 
 	.main-content > main {

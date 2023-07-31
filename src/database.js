@@ -522,6 +522,12 @@ export const websiteData = {
         image: "/images/interactive-2.webp",
         gif: "/images/interactive-2g.webp ",
       },
+      {
+        name: "Advanced Team",
+        url: "https://advanced.team/",
+        image: "/images/interactive-3.webp",
+        gif: "/images/interactive-3g.webp ",
+      },
     ],
     "3D": [
       {

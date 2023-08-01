@@ -99,6 +99,7 @@
         websiteName={currentWebsite.name}
         websiteUrl={currentWebsite.url}
         websiteCode={currentWebsite.code}
+        codeLinkBoolean={currentWebsite.iscodelink}
         websiteGif={currentWebsite.gif}
         closeModal={closeOverlay}
         nextModal = {nextModal}

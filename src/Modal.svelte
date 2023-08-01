@@ -7,6 +7,7 @@
   export let websiteName;
   export let websiteUrl;
   export let websiteCode;
+  export let codeLinkBoolean;
   export let websiteGif;
   export let closeModal;
   export let nextModal;
@@ -97,7 +98,7 @@
                 <path d="M12 21L5 14L12 7" stroke="white"/>
               </svg>                   
             </a>
-          {:else} 
+          {:else if !codeLinkBoolean} 
             <a href="https://forms.gle/7gi8eLZZoQmbVyst5" target="_blank" class="outbound code-link empty-code">
               <span>Add CodePen Link</span>
               <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,7 +109,7 @@
             </a>
           {/if}
 
-          <a href="{websiteUrl}" target="_blank" class="outbound">
+          <a href="{websiteUrl}" target="_blank" class="outbound site-link">
             <span>Visit Site</span>
             <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="30" height="29" rx="3" fill="transparent"/>

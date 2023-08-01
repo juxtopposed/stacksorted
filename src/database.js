@@ -17,6 +17,7 @@ export const websiteData = {
         name: "Spark",
         url: "https://codepen.io/lucasdellabella/pen/RwMyzRd",
         image: "/images/buttons-3.webp",
+        iscodelink: true,
       },
       {
         name: "Vercel",
@@ -98,6 +99,7 @@ export const websiteData = {
         url: "https://codedotspirit.dev/",
         image: "/images/buttons-18.webp",
         gif: "/images/buttons-18g.webp ",
+        code: "https://codepen.io/kalisnetwork/pen/jOQQQmj",
       },
       {
         name: "Poppr 1",
@@ -140,12 +142,14 @@ export const websiteData = {
         url: "https://www.bolt.com/",
         image: "/images/buttons-25.webp",
         gif: "/images/buttons-25g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/poQQQVJ",
       },
       {
         name: "Studio Kingdom",
         url: "https://studiokingdom.co.kr/en/",
         image: "/images/buttons-26.webp",
         gif: "/images/buttons-26g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/oNQQQpo",
       },
     ],
     "links": [
@@ -160,6 +164,7 @@ export const websiteData = {
         url: "https://hackernoon.com/",
         image: "/images/links-2.webp",
         gif: "/images/links-2g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/PoxxaBO",
       },
       {
         name: "Realtime Colors",
@@ -198,6 +203,7 @@ export const websiteData = {
         url: "https://www.poppr.be/",
         image: "/images/links-8.webp",
         gif: "/images/links-8g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/yLQQEyj",
       },
     ],
     "grids": [

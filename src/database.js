@@ -446,6 +446,7 @@ export const websiteData = {
         url: "https://minhpham.design/",
         image: "/images/text-effects-2.webp",
         gif: "/images/text-effects-2g.webp ",
+        code: "https://codepen.io/Juxtopposed/pen/mdQaNbG",
       },
       {
         name: "Chronicle HQ",

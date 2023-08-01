@@ -160,6 +160,7 @@ export const websiteData = {
         url: "https://hackernoon.com/",
         image: "/images/links-2.webp",
         gif: "/images/links-2g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/PoxxaBO",
       },
       {
         name: "Realtime Colors",
@@ -460,6 +461,13 @@ export const websiteData = {
         url: "https://qu.ai/#articles",
         image: "/images/hover-effects-1.webp",
         gif: "/images/hover-effects-1g.webp ",
+      },
+      {
+        name: "Diagram",
+        url: "https://diagram.com/",
+        image: "/images/hover-effects-2.webp",
+        gif: "/images/hover-effects-2g.webp ",
+        code: "https://codepen.io/kalisnetwork/pen/rNQogYQ",
       },
     ],
     "hamburger-menu": [

@@ -420,6 +420,13 @@ export const websiteData = {
         image: "/images/cards-4.webp",
         gif: "/images/cards-4g.webp ",
       },
+      {
+        name: "Camillemormal",
+        url: "https://camillemormal.com/",
+        image: "/images/cards-5.webp",
+        gif: "/images/cards-5g.webp ",
+        code: "https://codepen.io/kalisnetwork/pen/OJaryod",
+      },
     ],
     "text-effects": [
       {
@@ -521,6 +528,12 @@ export const websiteData = {
         url: "https://thomasbosc.com/",
         image: "/images/interactive-2.webp",
         gif: "/images/interactive-2g.webp ",
+      },
+      {
+        name: "Advanced Team",
+        url: "https://advanced.team/",
+        image: "/images/interactive-3.webp",
+        gif: "/images/interactive-3g.webp ",
       },
     ],
     "3D": [

@@ -468,6 +468,13 @@ export const websiteData = {
         image: "/images/hover-effects-1.webp",
         gif: "/images/hover-effects-1g.webp ",
       },
+      {
+        name: "Minh Pham",
+        url: "https://minhpham.design/",
+        image: "/images/hover-effects-3.webp",
+        gif: "/images/hover-effects-3g.webp ",
+        code: "https://codepen.io/Juxtopposed/pen/mdQaNbG",
+      },
     ],
     "hamburger-menu": [
       {

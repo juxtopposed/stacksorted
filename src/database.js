@@ -469,6 +469,13 @@ export const websiteData = {
         gif: "/images/hover-effects-1g.webp ",
       },
       {
+        name: "Diagram",
+        url: "https://diagram.com/",
+        image: "/images/hover-effects-2.webp",
+        gif: "/images/hover-effects-2g.webp ",
+        code: "https://codepen.io/kalisnetwork/pen/rNQogYQ",
+      },
+      {
         name: "Minh Pham",
         url: "https://minhpham.design/",
         image: "/images/hover-effects-3.webp",

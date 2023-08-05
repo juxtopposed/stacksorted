@@ -428,6 +428,13 @@ export const websiteData = {
         gif: "/images/cards-5g.webp ",
         code: "https://codepen.io/kalisnetwork/pen/OJaryod",
       },
+      {
+        name: "Linear",
+        url: "https://linear.app/features",
+        image: "/images/cards-6.webp",
+        gif: "/images/cards-6g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/mdQoGPx",
+      },
     ],
     "text-effects": [
       {

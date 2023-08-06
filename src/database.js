@@ -206,6 +206,20 @@ export const websiteData = {
         code: "https://codepen.io/kalisnetwork/pen/yLQQEyj",
       },
     ],
+    "input": [
+      {
+        name: "PageLane",
+        url: "https://tympanus.net/Development/MinimalForm/",
+        image: "/images/input-1.png",
+        gif: "/images/input-1g.gif",
+      },
+      {
+        name: "Daily Frontend",
+        url: "https://dailyfrontend.dev/pages/main",
+        image: "/images/input-2.png", 
+        gif: "/images/input-2g.gif",
+      },
+    ],
     "grids": [
       {
         name: "'22 Companies.Tools",

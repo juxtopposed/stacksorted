@@ -70,6 +70,7 @@ export const websiteData = {
         name: "Threads.com",
         url: "https://threads.com/",
         image: "/images/buttons-13.webp",
+        code: "https://codepen.io/kalisnetwork/pen/mdQvoJR",
       },
       {
         name: "Starlight",
@@ -81,6 +82,7 @@ export const websiteData = {
         name: "Clay",
         url: "https://clay.earth/",
         image: "/images/buttons-15.webp",
+        code: "https://codepen.io/kalisnetwork/pen/mdQvgrj",
       },
       {
         name: "Quai Network",
@@ -151,139 +153,89 @@ export const websiteData = {
         gif: "/images/buttons-26g.webp",
         code: "https://codepen.io/kalisnetwork/pen/oNQQQpo",
       },
+      {
+        name: "WynnCraft",
+        url: "https://wynncraft.com/",
+        image: "/images/buttons-27.webp",
+        gif: "/images/buttons-27g.webp",
+      },
+      {
+        name: "Shopify Supply",
+        url: "https://shopify.supply/",
+        image: "/images/buttons-28.webp",
+        gif: "/images/buttons-28g.webp",
+      },
+      {
+        name: "Lunchbox",
+        url: "https://lunchbox.io/",
+        image: "/images/buttons-29.webp",
+        gif: "/images/buttons-29g.webp",
+      },
     ],
-    "links": [
+
+    "border-effects": [
       {
-        name: "Oaks Lane",
-        url: "https://oakslane.ch/en",
-        image: "/images/links-1.webp",
-        gif: "/images/links-1g.webp",
-      },
-      {
-        name: "Hackernoon",
-        url: "https://hackernoon.com/",
-        image: "/images/links-2.webp",
-        gif: "/images/links-2g.webp",
-        code: "https://codepen.io/kalisnetwork/pen/PoxxaBO",
-      },
-      {
-        name: "Realtime Colors",
-        url: "https://realtimecolors.com/",
-        code: "https://codepen.io/Juxtopposed/pen/poQVrPX",
-        image: "/images/links-3.webp",
-        gif: "/images/links-3g.webp",
-      },
-      {
-        name: "UBAC Store",
-        url: "https://ubac-store.com/en/",
-        image: "/images/links-4.webp",
-        gif: "/images/links-4g.webp",
-        code: "https://codepen.io/kalisnetwork/pen/yLQxNQY",
-      },
-      {
-        name: "Awwwards",
-        url: "https://www.awwwards.com/",
-        image: "/images/links-5.webp",
-        gif: "/images/links-5g.webp",
-      },
-      {
-        name: "JTB Studios",
-        url: "https://www.jtbstudios.com.au/",
-        image: "/images/links-6.webp",
-        gif: "/images/links-6g.webp",
-      },
-      {
-        name: "Mack & Pouya",
-        url: "https://mackpouya.webflow.io//",
-        image: "/images/links-7.webp",
-        gif: "/images/links-7g.webp",
+        name: "Raycast",
+        url: "https://www.raycast.com/",
+        image: "/images/border-effects-1.webp",
       },
       {
         name: "Poppr",
         url: "https://www.poppr.be/",
-        image: "/images/links-8.webp",
-        gif: "/images/links-8g.webp",
-        code: "https://codepen.io/kalisnetwork/pen/yLQQEyj",
+        image: "/images/border-effects-2.webp",
+        gif: "/images/border-effects-2g.webp ",
+      },
+      {
+        name: "Nuxt",
+        url: "https://nuxt.com/",
+        image: "/images/border-effects-3.webp",
+        gif: "/images/border-effects-3g.webp ",
+      },
+      {
+        name: "Riot Games",
+        url: "https://www.riotgames.com/en",
+        image: "/images/border-effects-4.webp",
+        gif: "/images/border-effects-4g.webp ",
       },
     ],
-    "grids": [
+
+    "cards": [
       {
-        name: "'22 Companies.Tools",
-        url: "https://recap.companies.tools/",
-        image: "/images/grids-1.webp",
+        name: "Quai Network",
+        url: "https://qu.ai/#what-can-you-build",
+        image: "/images/cards-1.webp",
       },
       {
-        name: "Realtime Colors",
-        url: "https://realtimecolors.com/?colors=faf8fc-160d1c-dfcfb9-261631-5eb591",
-        image: "/images/grids-2.webp",
+        name: "Croma",
+        url: "https://wearecroma.it/",
+        image: "/images/cards-2.webp",
+        code: "https://codepen.io/Baraa-Halabi/pen/eYQopLo",
       },
       {
-        name: "Apple iPhone 14",
-        url: "https://www.apple.com/iphone-14/",
-        image: "/images/grids-3.webp",
+        name: "Nuxt",
+        url: "https://nuxt.com/",
+        image: "/images/cards-3.webp",
+        gif: "/images/cards-3g.webp ",
       },
       {
-        name: "Reflect",
-        url: "https://reflect.app/home",
-        image: "/images/grids-4.webp",
+        name: "Riot Games",
+        url: "https://www.riotgames.com/en",
+        image: "/images/cards-4.webp",
+        gif: "/images/cards-4g.webp ",
       },
       {
-        name: "Tabulio",
-        url: "https://tabulio.com/",
-        image: "/images/grids-5.webp",
+        name: "Camillemormal",
+        url: "https://camillemormal.com/",
+        image: "/images/cards-5.webp",
+        gif: "/images/cards-5g.webp ",
       },
       {
-        name: "LinkTree",
-        url: "https://linktr.ee/",
-        image: "/images/grids-6.webp",
-      },
-      {
-        name: "Starlight",
-        url: "https://www.starlight.money/",
-        image: "/images/grids-7.webp",
-      },
-      {
-        name: "Clay",
-        url: "https://clay.earth/",
-        image: "/images/grids-8.webp",
-      },
-      {
-        name: "Vape",
-        url: "https://www.vape.gg/",
-        image: "/images/grids-9.webp",
-      },
-      {
-        name: "CodeDotSpirit",
-        url: "https://codedotspirit.dev/",
-        image: "/images/grids-10.webp",
-        gif: "/images/grids-10g.webp ",
-      },
-      {
-        name: "Johannes Iilahti",
-        url: "https://johannesiilahti.com/",
-        image: "/images/grids-11.webp",
-      },
-      {
-        name: "Raycast",
-        url: "https://www.raycast.com/",
-        image: "/images/grids-12.webp",
-      },
-      {
-        name: "Diagram",
-        url: "https://diagram.com/",
-        image: "/images/grids-13.webp",
-      },
-      {
-        name: "Bolt",
-        url: "https://www.bolt.com/",
-        image: "/images/grids-14.webp",
-      },
-      {
-        name: "Railway",
-        url: "https://railway.app/careers",
-        image: "/images/grids-15.webp",
+        name: "Cuberto",
+        url: "https://hello.cuberto.com/",
+        image: "/images/cards-6.webp",
       },
     ],
+
     "custom-cursor": [
       {
         name: "Rednecks",
@@ -362,27 +314,253 @@ export const websiteData = {
         image: "/images/cursor-13.webp",
         gif: "/images/cursor-13g.webp ",
       },
-    ],
-    "progress-bar": [
       {
-        name: "Kubota Future Cube",
-        url: "https://www.kubota.com/futurecube/",
-        image: "/images/progress-bar-1.webp",
-        gif: "/images/progress-bar-1g.webp ",
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/cursor-14.webp",
+        gif: "/images/cursor-14g.webp ",
+      },
+    ],
+
+    "grids": [
+      {
+        name: "'22 Companies.Tools",
+        url: "https://recap.companies.tools/",
+        image: "/images/grids-1.webp",
       },
       {
-        name: "The Boat",
-        url: "https://www.sbs.com.au/theboat/",
-        image: "/images/progress-bar-2.webp",
-        gif: "/images/progress-bar-2g.webp ",
+        name: "Realtime Colors",
+        url: "https://realtimecolors.com/?colors=faf8fc-160d1c-dfcfb9-261631-5eb591",
+        image: "/images/grids-2.webp",
+      },
+      {
+        name: "Apple iPhone 14",
+        url: "https://www.apple.com/iphone-14/",
+        image: "/images/grids-3.webp",
+      },
+      {
+        name: "Reflect",
+        url: "https://reflect.app/home",
+        image: "/images/grids-4.webp",
+      },
+      {
+        name: "Tabulio",
+        url: "https://tabulio.com/",
+        image: "/images/grids-5.webp",
+      },
+      {
+        name: "LinkTree",
+        url: "https://linktr.ee/",
+        image: "/images/grids-6.webp",
+      },
+      {
+        name: "Starlight",
+        url: "https://www.starlight.money/",
+        image: "/images/grids-7.webp",
+      },
+      {
+        name: "Clay",
+        url: "https://clay.earth/",
+        image: "/images/grids-8.webp",
+      },
+      {
+        name: "Vape",
+        url: "https://www.vape.gg/",
+        image: "/images/grids-9.webp",
+      },
+      {
+        name: "CodeDotSpirit",
+        url: "https://codedotspirit.dev/",
+        image: "/images/grids-10.webp",
+        gif: "/images/grids-10g.webp ",
+      },
+      {
+        name: "Johannes Iilahti",
+        url: "https://johannesiilahti.com/",
+        image: "/images/grids-11.webp",
+      },
+      {
+        name: "Raycast",
+        url: "https://www.raycast.com/",
+        image: "/images/grids-12.webp",
+      },
+      {
+        name: "Diagram",
+        url: "https://diagram.com/",
+        image: "/images/grids-13.webp",
+      },
+      {
+        name: "Bolt",
+        url: "https://www.bolt.com/",
+        image: "/images/grids-14.webp",
+      },
+      {
+        name: "Railway",
+        url: "https://railway.app/careers",
+        image: "/images/grids-15.webp",
+      },
+    ],
+
+    "hamburger-menu": [
+      {
+        name: "Croma",
+        url: "https://wearecroma.it/",
+        image: "/images/hamburger-menu-1.webp",
+        gif: "/images/hamburger-menu-1g.webp ",
+      },
+      {
+        name: "Poppr",
+        url: "https://www.poppr.be/",
+        image: "/images/hamburger-menu-2.webp",
+        gif: "/images/hamburger-menu-2g.webp ",
+        code: "https://codepen.io/Quiddlee/pen/MWPbKxg",
+      },
+    ],
+
+    "hover-effects": [
+      {
+        name: "Quai Network",
+        url: "https://qu.ai/#articles",
+        image: "/images/hover-effects-1.webp",
+        gif: "/images/hover-effects-1g.webp ",
+      },
+      {
+        name: "Minh Pham",
+        url: "https://minhpham.design/",
+        image: "/images/hover-effects-3.webp",
+        gif: "/images/hover-effects-3g.webp ",
+        code: "https://codepen.io/Juxtopposed/pen/mdQaNbG",
+      },
+      {
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/hover-effects-4.webp",
+        gif: "/images/hover-effects-4g.webp ",
+      },
+    ],
+
+    "image-effects": [
+      {
+        name: "Outdated",
+        url: "https://www.outdated.site/",
+        image: "/images/image-effects-1.webp",
+        gif: "/images/image-effects-1g.webp ",
+      },
+      {
+        name: "Teamgeek",
+        url: "https://www.teamgeek.io/",
+        image: "/images/image-effects-2.webp",
+        gif: "/images/image-effects-2g.webp ",
+      },
+      {
+        name: "Romain Avalle",
+        url: "https://www.romainavalle.dev/works",
+        image: "/images/image-effects-3.webp",
+        gif: "/images/image-effects-3g.webp ",
+      },
+      {
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/image-effects-4.webp",
+        gif: "/images/image-effects-4g.webp ",
+      },
+    ],
+
+    "interactive-elements": [
+      {
+        name: "Superlist",
+        url: "https://www.superlist.com/ ",
+        image: "/images/interactive-1.webp",
+        gif: "/images/interactive-1g.webp ",
       },
       {
         name: "Thomas Bosc",
         url: "https://thomasbosc.com/",
-        image: "/images/progress-bar-3.webp",
-        gif: "/images/progress-bar-3g.webp ",
+        image: "/images/interactive-2.webp",
+        gif: "/images/interactive-2g.webp ",
+      },
+      {
+        name: "Advanced Team",
+        url: "https://advanced.team/",
+        image: "/images/interactive-3.webp",
+        gif: "/images/interactive-3g.webp ",
+      },
+      {
+        name: "Diagram",
+        url: "https://diagram.com/",
+        image: "/images/interactive-4.webp",
+        gif: "/images/interactive-4g.webp ",
+        code: "https://codepen.io/Hyperplexed/pen/wvQzbGz",
+      },
+      {
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/interactive-5.webp",
+        gif: "/images/interactive-5g.webp ",
       },
     ],
+
+    "links": [
+      {
+        name: "Oaks Lane",
+        url: "https://oakslane.ch/en",
+        image: "/images/links-1.webp",
+        gif: "/images/links-1g.webp",
+      },
+      {
+        name: "Hackernoon",
+        url: "https://hackernoon.com/",
+        image: "/images/links-2.webp",
+        gif: "/images/links-2g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/PoxxaBO",
+      },
+      {
+        name: "Realtime Colors",
+        url: "https://realtimecolors.com/",
+        code: "https://codepen.io/Juxtopposed/pen/poQVrPX",
+        image: "/images/links-3.webp",
+        gif: "/images/links-3g.webp",
+      },
+      {
+        name: "UBAC Store",
+        url: "https://ubac-store.com/en/",
+        image: "/images/links-4.webp",
+        gif: "/images/links-4g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/yLQxNQY",
+      },
+      {
+        name: "Awwwards",
+        url: "https://www.awwwards.com/",
+        image: "/images/links-5.webp",
+        gif: "/images/links-5g.webp",
+      },
+      {
+        name: "JTB Studios",
+        url: "https://www.jtbstudios.com.au/",
+        image: "/images/links-6.webp",
+        gif: "/images/links-6g.webp",
+      },
+      {
+        name: "Mack & Pouya",
+        url: "https://mackpouya.webflow.io//",
+        image: "/images/links-7.webp",
+        gif: "/images/links-7g.webp",
+      },
+      {
+        name: "Poppr",
+        url: "https://www.poppr.be/",
+        image: "/images/links-8.webp",
+        gif: "/images/links-8g.webp",
+        code: "https://codepen.io/kalisnetwork/pen/yLQQEyj",
+      },
+      {
+        name: "Cuberto",
+        url: "https://www.cuberto.com/",
+        image: "/images/links-9.webp",
+        gif: "/images/links-9g.webp",
+      },
+    ],
+
     "loading-animation": [
       {
         name: "Quai Network",
@@ -403,37 +581,61 @@ export const websiteData = {
         gif: "/images/loading-3g.webp ",
       },
     ],
-    "cards": [
+
+    "progress-bar": [
       {
-        name: "Quai Network",
-        url: "https://qu.ai/#what-can-you-build",
-        image: "/images/cards-1.webp",
+        name: "Kubota Future Cube",
+        url: "https://www.kubota.com/futurecube/",
+        image: "/images/progress-bar-1.webp",
+        gif: "/images/progress-bar-1g.webp ",
       },
       {
-        name: "Croma",
-        url: "https://wearecroma.it/",
-        image: "/images/cards-2.webp",
+        name: "The Boat",
+        url: "https://www.sbs.com.au/theboat/",
+        image: "/images/progress-bar-2.webp",
+        gif: "/images/progress-bar-2g.webp ",
       },
       {
-        name: "Nuxt",
-        url: "https://nuxt.com/",
-        image: "/images/cards-3.webp",
-        gif: "/images/cards-3g.webp ",
+        name: "Thomas Bosc",
+        url: "https://thomasbosc.com/",
+        image: "/images/progress-bar-3.webp",
+        gif: "/images/progress-bar-3g.webp ",
       },
       {
-        name: "Riot Games",
-        url: "https://www.riotgames.com/en",
-        image: "/images/cards-4.webp",
-        gif: "/images/cards-4g.webp ",
-      },
-      {
-        name: "Camillemormal",
-        url: "https://camillemormal.com/",
-        image: "/images/cards-5.webp",
-        gif: "/images/cards-5g.webp ",
-        code: "https://codepen.io/kalisnetwork/pen/OJaryod",
+        name: "Stripe Press",
+        url: "https://press.stripe.com/",
+        image: "/images/progress-bar-4.webp",
+        gif: "/images/progress-bar-4g.webp ",
       },
     ],
+
+    "scroll-effects": [
+      {
+        name: "Romain Avalle",
+        url: "https://www.romainavalle.dev/works",
+        image: "/images/scroll-effects-1.webp",
+        gif: "/images/scroll-effects-1g.webp",
+      },
+      {
+        name: "Stripe Press",
+        url: "https://press.stripe.com/",
+        image: "/images/scroll-effects-2.webp",
+        gif: "/images/scroll-effects-2g.webp",
+      },
+      {
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/scroll-effects-3.webp",
+        gif: "/images/scroll-effects-3g.webp",
+      },
+      {
+        name: "Lunchbox",
+        url: "https://lunchbox.io/",
+        image: "/images/scroll-effects-4.webp",
+        gif: "/images/scroll-effects-4g.webp",
+      },
+    ],
+
     "text-effects": [
       {
         name: "Quai Network",
@@ -461,102 +663,7 @@ export const websiteData = {
         gif: "/images/text-effects-4g.webp ",
       },
     ],
-    "hover-effects": [
-      {
-        name: "Quai Network",
-        url: "https://qu.ai/#articles",
-        image: "/images/hover-effects-1.webp",
-        gif: "/images/hover-effects-1g.webp ",
-      },
-      {
-        name: "Diagram",
-        url: "https://diagram.com/",
-        image: "/images/hover-effects-2.webp",
-        gif: "/images/hover-effects-2g.webp ",
-        code: "https://codepen.io/kalisnetwork/pen/rNQogYQ",
-      },
-      {
-        name: "Minh Pham",
-        url: "https://minhpham.design/",
-        image: "/images/hover-effects-3.webp",
-        gif: "/images/hover-effects-3g.webp ",
-        code: "https://codepen.io/Juxtopposed/pen/mdQaNbG",
-      },
-    ],
-    "hamburger-menu": [
-      {
-        name: "Croma",
-        url: "https://wearecroma.it/",
-        image: "/images/hamburger-menu-1.webp",
-        gif: "/images/hamburger-menu-1g.webp ",
-      },
-      {
-        name: "Poppr",
-        url: "https://www.poppr.be/",
-        image: "/images/hamburger-menu-2.webp",
-        gif: "/images/hamburger-menu-2g.webp ",
-        code: "https://codepen.io/Quiddlee/pen/MWPbKxg",
-      },
-    ],
-    "image-effects": [
-      {
-        name: "Outdated",
-        url: "https://www.outdated.site/",
-        image: "/images/image-effects-1.webp",
-        gif: "/images/image-effects-1g.webp ",
-      },
-      {
-        name: "Teamgeek",
-        url: "https://www.teamgeek.io/",
-        image: "/images/image-effects-2.webp",
-        gif: "/images/image-effects-2g.webp ",
-      },
-    ],
-    "border-effects": [
-      {
-        name: "Raycast",
-        url: "https://www.raycast.com/",
-        image: "/images/border-effects-1.webp",
-      },
-      {
-        name: "Poppr",
-        url: "https://www.poppr.be/",
-        image: "/images/border-effects-2.webp",
-        gif: "/images/border-effects-2g.webp ",
-      },
-      {
-        name: "Nuxt",
-        url: "https://nuxt.com/",
-        image: "/images/border-effects-3.webp",
-        gif: "/images/border-effects-3g.webp ",
-      },
-      {
-        name: "Riot Games",
-        url: "https://www.riotgames.com/en",
-        image: "/images/border-effects-4.webp",
-        gif: "/images/border-effects-4g.webp ",
-      },
-    ],
-    "interactive-elements": [
-      {
-        name: "Superlist",
-        url: "https://www.superlist.com/ ",
-        image: "/images/interactive-1.webp",
-        gif: "/images/interactive-1g.webp ",
-      },
-      {
-        name: "Thomas Bosc",
-        url: "https://thomasbosc.com/",
-        image: "/images/interactive-2.webp",
-        gif: "/images/interactive-2g.webp ",
-      },
-      {
-        name: "Advanced Team",
-        url: "https://advanced.team/",
-        image: "/images/interactive-3.webp",
-        gif: "/images/interactive-3g.webp ",
-      },
-    ],
+
     "3D": [
       {
         name: "Kubota Future Cube",
@@ -581,6 +688,12 @@ export const websiteData = {
         url: "https://www.joshuas.world/",
         image: "/images/3d-4.webp",
         gif: "/images/3d-4g.webp",
+      },
+      {
+        name: "Stripe Press",
+        url: "https://press.stripe.com/",
+        image: "/images/3d-5.webp",
+        gif: "/images/3d-5g.webp ",
       },
     ],
   },

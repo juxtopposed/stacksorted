@@ -126,6 +126,7 @@ export const websiteData = {
         name: "Nuxt",
         url: "https://nuxt.com/",
         image: "/images/buttons-22.webp",
+        code: "https://codepen.io/kalisnetwork/pen/ZEmNZzm",
       },
       {
         name: "App Embed",
@@ -164,6 +165,7 @@ export const websiteData = {
         url: "https://shopify.supply/",
         image: "/images/buttons-28.webp",
         gif: "/images/buttons-28g.webp",
+        code:"https://codepen.io/kalisnetwork/pen/BaGebQK",
       },
       {
         name: "Lunchbox",
@@ -196,6 +198,13 @@ export const websiteData = {
         url: "https://www.riotgames.com/en",
         image: "/images/border-effects-4.webp",
         gif: "/images/border-effects-4g.webp ",
+      },
+      {
+        name: "Vercel",
+        url: "https://vercel.com/pricing",
+        image: "/images/border-effects-5.webp",
+        gif: "/images/border-effects-5g.webp ",
+        code: "https://codepen.io/Juxtopposed/pen/xxQNozB",
       },
     ],
 

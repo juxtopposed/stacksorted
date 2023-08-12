@@ -313,7 +313,7 @@ export const websiteData = {
         gif: "/images/cursor-11g.webp ",
       },
       {
-        name: "Looksie",
+        name: "Looskie",
         url: "https://looskie.com/",
         image: "/images/cursor-12.webp",
       },

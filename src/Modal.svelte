@@ -58,7 +58,7 @@
   
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="modal-overlay" on:click|stopPropagation={handleOverlayClick}>
-    <div class="modal">
+    <div class="modal" aria-modal="true">
       <div class="card-info">
         <h3><a href="{websiteUrl}" target="_blank">{websiteName}</a></h3>
         <div class="modal-nav">

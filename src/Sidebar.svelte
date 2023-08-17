@@ -40,6 +40,7 @@
     <button
       class="option"
       class:active={activeCategory === category}
+	  aria-selected={window.URL.pathname === category}
       class:show={showButtons}
       on:click={() => selectCategory(category)}
       on:keydown={() => selectCategory(category)}

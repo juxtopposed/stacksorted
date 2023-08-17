@@ -1,13 +1,7 @@
 <script>
-  import { navigate } from "svelte-routing";
   import { websiteData } from "./database";
 
   const categories = Object.keys(websiteData.categories);
-  let path = window.location.pathname.split("/")[1];
-  let activeCategory = categories.includes(path) ? path : categories[0];
-
-  let optionButtons = [];
-  let showButtons = false;
 
   function capitalize(str) {
     return str
@@ -16,36 +10,19 @@
       .join(" ");
   }
 
-  function selectCategory(category) {
-    activeCategory = category;
-    navigate(`/${category}`);
+  const isActiveCategory = (category) => {
+	  return window.location.pathname.split("/")[1] === category
   }
-
-  function handlePopstate() {
-    path = window.location.pathname.split("/")[1];
-    activeCategory = categories.includes(path) ? path : categories[0];
-  };
 </script>
 
-<svelte:window
-  on:resize={() => (showButtons = false)}
-  on:popstate={handlePopstate}
-/>
-
-<aside
-  on:click={() => (showButtons = !showButtons)}
-  on:keydown={() => (showButtons = !showButtons)}
->
-  {#each categories as category, index}
-    <button
+<aside>
+  {#each categories as category}
+    <a
+	  href={`/${category}`}
       class="option"
-      class:active={activeCategory === category}
-      class:show={showButtons}
-      on:click={() => selectCategory(category)}
-      on:keydown={() => selectCategory(category)}
-      bind:this={optionButtons[index]}
+      class:active={isActiveCategory(category)}
     >
       {capitalize(category)}
-    </button>
+    </a>
   {/each}
 </aside>

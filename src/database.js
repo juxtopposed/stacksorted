@@ -507,6 +507,13 @@ export const websiteData = {
         image: "/images/interactive-5.webp",
         gif: "/images/interactive-5g.webp ",
       },
+      {
+        name: "Svene Spotlight Gradient",
+        url: "https://spotlight-gradient.vercel.app/",
+        code: "https://github.com/aidrecabrera/spotlight-gradient",
+        image: "/images/interactive-6.webp",
+        gif: "/images/interactive-6g.webp ",
+      }
     ],
 
     "links": [

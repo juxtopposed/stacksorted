@@ -473,6 +473,13 @@ export const websiteData = {
         image: "/images/image-effects-4.webp",
         gif: "/images/image-effects-4g.webp ",
       },
+      {
+        name: "Zajno",
+        url: "https://zajno.com/",
+        image: "/images/image-effects-5.webp",
+        gif: "/images/image-effects-5g.webp ",
+        code: "https://codepen.io/Juxtopposed/pen/MWZWpVQ"
+      },
     ],
 
     "interactive-elements": [

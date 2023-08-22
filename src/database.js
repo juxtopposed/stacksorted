@@ -10,6 +10,7 @@ export const websiteData = {
       {
         name: "Rednecks",
         url: "https://redneck.media/",
+        code: "https://codepen.io/zzznicob/pen/VwqYeXN",
         image: "/images/buttons-2.webp",
         gif: "/images/buttons-2g.webp ",
       },
@@ -33,6 +34,7 @@ export const websiteData = {
       {
         name: "Gumroad",
         url: "https://gumroad.com/",
+        code: "https://codepen.io/zzznicob/pen/YzdPwbK",
         image: "/images/buttons-6.webp",
       },
       {
@@ -547,12 +549,14 @@ export const websiteData = {
       {
         name: "Awwwards",
         url: "https://www.awwwards.com/",
+        code: "https://codepen.io/zzznicob/pen/vYvEYNe",
         image: "/images/links-5.webp",
         gif: "/images/links-5g.webp",
       },
       {
         name: "JTB Studios",
         url: "https://www.jtbstudios.com.au/",
+        code: "https://codepen.io/zzznicob/pen/GRPgKLM",
         image: "/images/links-6.webp",
         gif: "/images/links-6g.webp",
       },

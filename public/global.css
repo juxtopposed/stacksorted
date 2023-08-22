@@ -245,6 +245,11 @@ nav {
   	background-color: var(--background);
 }
 
+.website-card:hover > .card-info >  h3{
+	color: var(--primary);
+}
+
+
 .card-info {
 	display: flex;
 	flex-direction: row;

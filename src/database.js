@@ -420,7 +420,7 @@ export const websiteData = {
       {
         name: "Cyclops",
         url: "https://cyclopsclub.com",
-        image "/images/hamburger-menu-3.webp",
+        image: "/images/hamburger-menu-3.webp",
         gif: "/images/hamburger-menu-3g.webp",
       },
       {

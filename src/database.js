@@ -8,6 +8,12 @@ export const websiteData = {
         code: "https://codepen.io/ThunderFound/pen/QWJBQwo",
       },
       {
+        name: "Cyclops",
+        url: "https://cyclopsclub.com",
+        image: "",
+        gif: "",
+      }
+      {
         name: "Rednecks",
         url: "https://redneck.media/",
         image: "/images/buttons-2.webp",
@@ -416,6 +422,12 @@ export const websiteData = {
         url: "https://wearecroma.it/",
         image: "/images/hamburger-menu-1.webp",
         gif: "/images/hamburger-menu-1g.webp ",
+      },
+      {
+        name: "Cyclops",
+        url: "https://cyclopsclub.com",
+        image "/images/hamburger-menu-3.webp",
+        gif: "/images/hamburger-menu-3g.webp",
       },
       {
         name: "Poppr",

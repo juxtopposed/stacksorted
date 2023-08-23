@@ -418,17 +418,17 @@ export const websiteData = {
         gif: "/images/hamburger-menu-1g.webp ",
       },
       {
-        name: "Cyclops",
-        url: "https://cyclopsclub.com",
-        image: "/images/hamburger-menu-3.webp",
-        gif: "/images/hamburger-menu-3g.webp",
-      },
-      {
         name: "Poppr",
         url: "https://www.poppr.be/",
         image: "/images/hamburger-menu-2.webp",
         gif: "/images/hamburger-menu-2g.webp ",
         code: "https://codepen.io/Quiddlee/pen/MWPbKxg",
+      },
+      {
+        name: "Cyclops",
+        url: "https://cyclopsclub.com",
+        image: "/images/hamburger-menu-3.webp",
+        gif: "/images/hamburger-menu-3g.webp",
       },
     ],
 

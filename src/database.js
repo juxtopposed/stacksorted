@@ -8,12 +8,6 @@ export const websiteData = {
         code: "https://codepen.io/ThunderFound/pen/QWJBQwo",
       },
       {
-        name: "Cyclops",
-        url: "https://cyclopsclub.com",
-        image: "",
-        gif: "",
-      }
-      {
         name: "Rednecks",
         url: "https://redneck.media/",
         image: "/images/buttons-2.webp",

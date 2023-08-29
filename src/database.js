@@ -123,6 +123,7 @@ export const websiteData = {
         url: "https://chroniclehq.com/",
         image: "/images/buttons-21.webp",
         gif: "/images/buttons-21g.webp ",
+        code: "https://codepen.io/Haaguitos/pen/OJrVZdJ",
       },
       {
         name: "Nuxt",
@@ -174,6 +175,18 @@ export const websiteData = {
         url: "https://lunchbox.io/",
         image: "/images/buttons-29.webp",
         gif: "/images/buttons-29g.webp",
+      },
+      {
+        name: "Corey Donenfeld",
+        url: "https://coreydonenfeld.com/",
+        image: "/images/buttons-30.webp",
+        gif: "/images/buttons-30g.webp",
+      },
+      {
+        name: "Obys",
+        url: "https://obys.agency/",
+        image: "/images/buttons-31.webp",
+        gif: "/images/buttons-31g.webp",
       },
     ],
 
@@ -410,6 +423,11 @@ export const websiteData = {
         url: "https://railway.app/careers",
         image: "/images/grids-15.webp",
       },
+      {
+        name: "Linear",
+        url: "https://linear.app/",
+        image: "/images/grids-16.webp",
+      },
     ],
 
     "hamburger-menu": [
@@ -425,6 +443,12 @@ export const websiteData = {
         image: "/images/hamburger-menu-2.webp",
         gif: "/images/hamburger-menu-2g.webp ",
         code: "https://codepen.io/Quiddlee/pen/MWPbKxg",
+      },
+      {
+        name: "Obys",
+        url: "https://obys.agency/",
+        image: "/images/hamburger-menu-3.webp",
+        gif: "/images/hamburger-menu-3g.webp ",
       },
     ],
 
@@ -447,6 +471,30 @@ export const websiteData = {
         url: "https://cuberto.com/",
         image: "/images/hover-effects-4.webp",
         gif: "/images/hover-effects-4g.webp ",
+      },
+      {
+        name: "Corey Donenfeld",
+        url: "https://coreydonenfeld.com/",
+        image: "/images/hover-effects-5.webp",
+        gif: "/images/hover-effects-5g.webp",
+      },
+      {
+        name: "Linear",
+        url: "https://linear.app/",
+        image: "/images/hover-effects-6.webp",
+        gif: "/images/hover-effects-6g.webp"
+      },
+      {
+        name: "Unbench",
+        url: "https://unbench.us/",
+        image: "/images/hover-effects-7.webp",
+        gif: "/images/hover-effects-7g.webp"
+      },
+      {
+        name: "Tigermilk",
+        url: "https://tigermilkrestaurants.com/en/",
+        image: "/images/hover-effects-8.webp",
+        gif: "/images/hover-effects-8g.webp"
       },
     ],
 
@@ -483,6 +531,12 @@ export const websiteData = {
         image: "/images/image-effects-5.webp",
         gif: "/images/image-effects-5g.webp ",
         code: "https://codepen.io/Juxtopposed/pen/MWZWpVQ"
+      },
+      {
+        name: "Obys",
+        url: "https://obys.agency/",
+        image: "/images/image-effects-6.webp",
+        gif: "/images/image-effects-6g.webp ",
       },
     ],
 
@@ -602,6 +656,18 @@ export const websiteData = {
         image: "/images/loading-3.webp",
         gif: "/images/loading-3g.webp ",
       },
+      {
+        name: "Unbench",
+        url: "https://unbench.us/",
+        image: "/images/loading-4.webp",
+        gif: "/images/loading-4g.webp ",
+      },
+      {
+        name: "Obys",
+        url: "https://obys.agency/",
+        image: "/images/loading-5.webp",
+        gif: "/images/loading-5g.webp ",
+      },
     ],
 
     "progress-bar": [
@@ -622,6 +688,7 @@ export const websiteData = {
         url: "https://thomasbosc.com/",
         image: "/images/progress-bar-3.webp",
         gif: "/images/progress-bar-3g.webp ",
+        code: "https://codepen.io/RhysJosmin/pen/jOXWqem",
       },
       {
         name: "Stripe Press",
@@ -655,6 +722,30 @@ export const websiteData = {
         url: "https://lunchbox.io/",
         image: "/images/scroll-effects-4.webp",
         gif: "/images/scroll-effects-4g.webp",
+      },
+      {
+        name: "Corey Donenfeld",
+        url: "https://coreydonenfeld.com/",
+        image: "/images/scroll-effects-5.webp",
+        gif: "/images/scroll-effects-5g.webp",
+      },
+      {
+        name: "Database AI",
+        url: "https://databass.ai/",
+        image: "/images/scroll-effects-6.webp",
+        gif: "/images/scroll-effects-6g.webp",
+      },
+      {
+        name: "Unbench",
+        url: "https://unbench.us/",
+        image: "/images/scroll-effects-7.webp",
+        gif: "/images/scroll-effects-7g.webp",
+      },
+      {
+        name: "Dotlinecode",
+        url: "https://dotlinecode.com/en/",
+        image: "/images/scroll-effects-8.webp",
+        gif: "/images/scroll-effects-8g.webp",
       },
     ],
 
@@ -716,6 +807,11 @@ export const websiteData = {
         url: "https://press.stripe.com/",
         image: "/images/3d-5.webp",
         gif: "/images/3d-5g.webp ",
+      },
+      {
+        name: "Dotlinecode",
+        url: "https://dotlinecode.com/",
+        image: "/images/3d-6.webp",
       },
     ],
   },

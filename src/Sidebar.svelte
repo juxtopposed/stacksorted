@@ -9,8 +9,6 @@
   let optionButtons = [];
   let showButtons = false;
 
-  console.log('window.location.pathname', window.location.pathname)
-
   function capitalize(str) {
     return str
       .split(/-|\s/)

@@ -9,6 +9,8 @@
   let optionButtons = [];
   let showButtons = false;
 
+  console.log('window.location.pathname', window.location.pathname)
+
   function capitalize(str) {
     return str
       .split(/-|\s/)
@@ -40,7 +42,7 @@
     <button
       class="option"
       class:active={activeCategory === category}
-	  aria-selected={window.URL.pathname === category}
+	    aria-selected={path === category}
       class:show={showButtons}
       on:click={() => selectCategory(category)}
       on:keydown={() => selectCategory(category)}

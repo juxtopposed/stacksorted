@@ -60,7 +60,7 @@
 <div class="modal-overlay" on:click|stopPropagation={handleOverlayClick}>
     <div class="modal" aria-modal="true">
       <div class="card-info">
-        <h3><a href="{websiteUrl}" target="_blank">{websiteName}</a></h3>
+        <h2><a href="{websiteUrl}" target="_blank">{websiteName}</a></h2>
         <div class="modal-nav">
 
           <svg on:click={prevModal} class="modal-nav-button" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">

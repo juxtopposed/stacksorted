@@ -369,6 +369,7 @@ aside {
 	font-weight: 500;
 	cursor: pointer;
 	transition: all ease 0.2s;
+	box-sizing: border-box;
 }
 
 .option::before {

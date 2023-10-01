@@ -196,6 +196,7 @@ export const websiteData = {
         name: "Raycast",
         url: "https://www.raycast.com/",
         image: "/images/border-effects-1.webp",
+        code: "https://codepen.io/da1z/pen/WNLZOzZ",
       },
       {
         name: "Poppr",
@@ -258,6 +259,11 @@ export const websiteData = {
         name: "Cuberto",
         url: "https://hello.cuberto.com/",
         image: "/images/cards-6.webp",
+      },
+      {
+        name: "Stripe",
+        url: "https://stripe.com/",
+        image: "/images/cards-7.webp",
       },
     ],
 
@@ -429,6 +435,11 @@ export const websiteData = {
         url: "https://linear.app/",
         image: "/images/grids-16.webp",
       },
+      {
+        name: "Colabs",
+        url: "https://colabs.com.au/",
+        image: "/images/grids-17.webp",
+      },
     ],
 
     "hamburger-menu": [
@@ -478,6 +489,7 @@ export const websiteData = {
         url: "https://coreydonenfeld.com/",
         image: "/images/hover-effects-5.webp",
         gif: "/images/hover-effects-5g.webp",
+        code: "https://codepen.io/flvffywvffy/pen/rNoeymB",
       },
       {
         name: "Linear",
@@ -496,6 +508,20 @@ export const websiteData = {
         url: "https://tigermilkrestaurants.com/en/",
         image: "/images/hover-effects-8.webp",
         gif: "/images/hover-effects-8g.webp"
+      },
+    ],
+
+    "icons": [
+      {
+        name: "Stripe",
+        url: "https://stripe.com/",
+        image: "/images/icons-1.webp",
+        gif: "/images/icons-1g.webp",
+      },
+      {
+        name: "Resend",
+        url: "https://resend.com/",
+        image: "/images/icons-2.webp",
       },
     ],
 
@@ -748,6 +774,12 @@ export const websiteData = {
         image: "/images/scroll-effects-8.webp",
         gif: "/images/scroll-effects-8g.webp",
       },
+      {
+        name: "The Browser Company",
+        url: "https://thebrowser.company/",
+        image: "/images/scroll-effects-9.webp",
+        gif: "/images/scroll-effects-9g.webp",
+      },
     ],
 
     "text-effects": [
@@ -813,6 +845,17 @@ export const websiteData = {
         name: "Dotlinecode",
         url: "https://dotlinecode.com/",
         image: "/images/3d-6.webp",
+      },
+      {
+        name: "Resend",
+        url: "https://resend.com/",
+        image: "/images/3d-7.webp",
+        gif: "/images/3d-7g.webp ",
+      },
+      {
+        name: "Resend",
+        url: "https://resend.com/",
+        image: "/images/3d-8.webp",
       },
     ],
   },

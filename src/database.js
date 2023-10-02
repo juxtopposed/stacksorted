@@ -189,6 +189,18 @@ export const websiteData = {
         image: "/images/buttons-31.webp",
         gif: "/images/buttons-31g.webp",
       },
+      {
+        name: "Design Charm",
+        url: "https://designcharm.co/",
+        image: "/images/buttons-32.webp",
+        gif: "/images/buttons-32g.webp",
+      },
+      {
+        name: "Inbase",
+        url: "https://inbase.me/agency",
+        image: "/images/buttons-33.webp",
+        gif: "/images/buttons-33g.webp",
+      },
     ],
 
     "border-effects": [
@@ -780,6 +792,12 @@ export const websiteData = {
         image: "/images/scroll-effects-9.webp",
         gif: "/images/scroll-effects-9g.webp",
       },
+      {
+        name: "Cosmos",
+        url: "https://www.cosmos.so/",
+        image: "/images/scroll-effects-10.webp",
+        gif: "/images/scroll-effects-10g.webp",
+      },
     ],
 
     "text-effects": [
@@ -856,6 +874,12 @@ export const websiteData = {
         name: "Resend",
         url: "https://resend.com/",
         image: "/images/3d-8.webp",
+      },
+      {
+        name: "Cosmos",
+        url: "https://www.cosmos.so/",
+        image: "/images/3d-9.webp",
+        gif: "/images/3d-9g.webp",
       },
     ],
   },

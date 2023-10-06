@@ -22,7 +22,7 @@
       history.pushState(null, null, `/${category}`);
     }
     
-      const websites = websiteData.categories[category] || [];
+      const websites = websiteData.categories[category].reverse() || [];
       let overlayVisible = false;
       let currentWebsite = {};
     

@@ -22,18 +22,17 @@
       history.pushState(null, null, `/${category}`);
     }
     
-      const websites = websiteData.categories[category].reverse() || [];
-      let overlayVisible = false;
-      let currentWebsite = {};
+    const websites = websiteData.categories[category].slice().reverse() || [];
+    let overlayVisible = false;
+    let currentWebsite = {};
     
-      function showOverlay(website) {
+    function showOverlay(website) {
       currentWebsite = website;
       overlayVisible = true;
 
       const siteName = currentWebsite.name.toLowerCase().replace(/\s/g, '-');
       history.pushState(null, null, `/${category}/${siteName}`);
     }
-    
   
     function closeOverlay() {
       overlayVisible = false;

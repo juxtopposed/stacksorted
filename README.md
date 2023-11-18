@@ -3,6 +3,7 @@ An open-source, open-to-contribution project that categorizes websites, not by g
 
 # How to contribute
 You can either contribute by improving the code or adding sites to the database.
+Before that, make sure to read the [Codes of Conduct](https://github.com/juxtopposed/stacksorted/blob/main/CONTRIBUTIONS.md).
 
 ## Improving the code
 If there's a feature you'd like to see, [open an issue](https://github.com/juxtopposed/stacksorted/issues) or send a pull request.

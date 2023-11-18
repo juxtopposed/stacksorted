@@ -12,6 +12,10 @@
 	--accent-a: rgba(255, 255, 255, 0.15);
 	--accent-a2: rgba(255, 255, 255, 0.3);
 	--primary-l: hsl(69, 78%, 68%);
+
+	--s: 14px;
+	--p: 16px;
+	--h: 18px;
 }
 
 html,
@@ -40,7 +44,7 @@ a {
 }
 
 .link {
-	font-size: 14px;
+	font-size: var(--s);
 	box-shadow: 0 0.5px 0 var(--accent);
 	padding-bottom: 3px;
 	font-weight: 400;
@@ -98,9 +102,10 @@ h2 {
 	color: var(--text);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: var(--h);
 	margin: 0;
 	cursor: pointer;
+	text-align: left;
 }
 
 h2:hover {
@@ -109,7 +114,7 @@ h2:hover {
 
 p {
 	color: var(--text);
-	font-size: 18px;
+	font-size: var(--p);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	line-height: 1.5;
@@ -117,12 +122,12 @@ p {
 
 .btn {
 	padding: 10px 15px;
-	border: 1px solid var(--accent);
+	border: 1px solid var(--accent-a2);
 	background-color: var(--accent-a);
-	border-radius: 10px;
+	border-radius: 8px;
 	color: var(--text);
 	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
-	font-size: 18px;
+	font-size: var(--p);
 	font-weight: 500;
 }
 
@@ -143,8 +148,16 @@ nav {
 }
 
 #logo {
-	width: 200px;
+	width: 150px;
 	height: 28px;
+}
+
+.logo-link {
+	transition: all 0.2s ease;
+}
+
+.logo-link:hover {
+	opacity: 60%;
 }
 
 
@@ -157,7 +170,7 @@ nav {
 }
 
 .note {
-	font-size: 14px; 
+	font-size: var(--s); 
 	padding: 10px; 
 	border-radius: 20px; 
 	background-color: var(--primary); 
@@ -245,7 +258,8 @@ nav {
   	background-color: var(--background);
 }
 
-.website-card:hover > .card-info >  h2{
+
+.website-card:hover > .card-info > h2 {
 	color: var(--primary);
 }
 
@@ -280,6 +294,7 @@ nav {
 	max-width: 100%;
 	max-height: 600px;
 	border-radius: 10px;
+	overflow: auto;
 }
 
 .outbound-cont {
@@ -300,7 +315,7 @@ nav {
 	align-items: center;
 	padding: 5px 10px;
 	color: var(--text);
-	font-size: 18px;
+	font-size: var(--p);
 }
 
 @media screen and (max-width: 900px) {
@@ -357,7 +372,7 @@ aside {
 	padding: 15px 20px;
 	border: none;
 	color: var(--text);
-	font-size: 18px;
+	font-size: var(--p);
 	font-family: 'Ubuntu', sans-serif;
 	text-align: left;
 	position: relative;
@@ -369,6 +384,7 @@ aside {
 	font-weight: 500;
 	cursor: pointer;
 	transition: all ease 0.2s;
+	box-sizing: border-box;
 }
 
 .option::before {
@@ -432,7 +448,8 @@ aside {
 	padding: 20px;
 	gap: 20px;
 	border: 3px solid var(--accent-a2);
-	max-width: 100%;
+	max-width: 80%;
+	max-height: 80%;
 	align-items: center;
 }
 
@@ -446,11 +463,12 @@ aside {
 	align-items: center;
 	height: 30px;
 	color: var(--text);
-	font-size: 18px;
-	width: fit-content;
+	font-size: var(--p);
+	width: auto;
 	border: none;
 	align-self: flex-end;
 	cursor: pointer;
+	max-width: 50px;
 }
   
 .modal-nav-button:hover {
@@ -523,7 +541,7 @@ aside {
 /* footer */
 
 .footer-content > * {
-	font-size: 14px;
+	font-size: var(--s);
 	font-weight: 300;
 }
   

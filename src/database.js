@@ -189,6 +189,31 @@ export const websiteData = {
         image: "/images/buttons-31.webp",
         gif: "/images/buttons-31g.webp",
       },
+      {
+        name: "Design Charm",
+        url: "https://designcharm.co/",
+        image: "/images/buttons-32.webp",
+        gif: "/images/buttons-32g.webp",
+      },
+      {
+        name: "Inbase",
+        url: "https://inbase.me/agency",
+        image: "/images/buttons-33.webp",
+        gif: "/images/buttons-33g.webp",
+      },
+      {
+        name: "Cut the Code",
+        url: "https://www.cutthecode.com/",
+        image: "/images/buttons-34.webp",
+        gif: "/images/buttons-34g.webp",
+      },
+      {
+        name: "Method",
+        url: "https://method.au/",
+        image: "/images/buttons-35.webp",
+        gif: "/images/buttons-35g.webp",
+        code: "https://codepen.io/mh_jsx/pen/JjxopOW"
+      },
     ],
 
     "border-effects": [
@@ -196,6 +221,7 @@ export const websiteData = {
         name: "Raycast",
         url: "https://www.raycast.com/",
         image: "/images/border-effects-1.webp",
+        code: "https://codepen.io/da1z/pen/WNLZOzZ",
       },
       {
         name: "Poppr",
@@ -221,6 +247,12 @@ export const websiteData = {
         image: "/images/border-effects-5.webp",
         gif: "/images/border-effects-5g.webp ",
         code: "https://codepen.io/Juxtopposed/pen/xxQNozB",
+      },
+      {
+        name: "Webflow",
+        url: "https://webflow.com/",
+        image: "/images/border-effects-6.webp",
+        gif: "/images/border-effects-6g.webp ",
       },
     ],
 
@@ -258,6 +290,42 @@ export const websiteData = {
         name: "Cuberto",
         url: "https://hello.cuberto.com/",
         image: "/images/cards-6.webp",
+      },
+      {
+        name: "Stripe",
+        url: "https://stripe.com/",
+        image: "/images/cards-7.webp",
+      },
+      {
+        name: "Webflow 1",
+        url: "https://webflow.com/",
+        image: "/images/cards-8.webp",
+      },
+      {
+        name: "Webflow 2",
+        url: "https://webflow.com/",
+        image: "/images/cards-9.webp",
+        gif: "/images/cards-9g.webp",
+      },
+      {
+        name: "Webflow 3",
+        url: "https://webflow.com/",
+        image: "/images/cards-10.webp",
+      },
+      {
+        name: "Cut the Code 1",
+        url: "https://www.cutthecode.com/",
+        image: "/images/cards-11.webp",
+      },
+      {
+        name: "Cut the Code 2",
+        url: "https://www.cutthecode.com/",
+        image: "/images/cards-12.webp",
+      },
+      {
+        name: "Method",
+        url: "https://method.au/",
+        image: "/images/cards-13.webp",
       },
     ],
 
@@ -429,6 +497,21 @@ export const websiteData = {
         url: "https://linear.app/",
         image: "/images/grids-16.webp",
       },
+      {
+        name: "Colabs",
+        url: "https://colabs.com.au/",
+        image: "/images/grids-17.webp",
+      },
+      {
+        name: "Webflow",
+        url: "https://webflow.com/",
+        image: "/images/grids-18.webp",
+      },
+      {
+        name: "Method",
+        url: "https://method.au/",
+        image: "/images/grids-19.webp",
+      },
     ],
 
     "hamburger-menu": [
@@ -450,6 +533,33 @@ export const websiteData = {
         url: "https://obys.agency/",
         image: "/images/hamburger-menu-3.webp",
         gif: "/images/hamburger-menu-3g.webp ",
+      },
+      {
+        name: "Alder Brixen",
+        url: "https://www.adlerbrixen.com/en",
+        image: "/images/hamburger-menu-4.webp",
+        gif: "/images/hamburger-menu-4g.webp ",
+      },
+    ],
+
+    "headers": [
+      {
+        name: "Patreon",
+        url: "https://www.patreon.com/",
+        image: "/images/headers-1.webp",
+        gif: "/images/headers-1g.webp ",
+        code: "https://codepen.io/Juxtopposed/pen/dywQpeN",
+      },
+      {
+        name: "Coffe & Aroma",
+        url: "https://aroma-coffee-business-template.webflow.io/",
+        image: "/images/headers-2.webp",
+      },
+      {
+        name: "Cut the Code",
+        url: "https://www.cutthecode.com/",
+        image: "/images/headers-3.webp",
+        gif: "/images/headers-3g.webp",
       },
     ],
 
@@ -478,6 +588,7 @@ export const websiteData = {
         url: "https://coreydonenfeld.com/",
         image: "/images/hover-effects-5.webp",
         gif: "/images/hover-effects-5g.webp",
+        code: "https://codepen.io/flvffywvffy/pen/rNoeymB",
       },
       {
         name: "Linear",
@@ -496,6 +607,25 @@ export const websiteData = {
         url: "https://tigermilkrestaurants.com/en/",
         image: "/images/hover-effects-8.webp",
         gif: "/images/hover-effects-8g.webp"
+      },
+    ],
+
+    "icons": [
+      {
+        name: "Stripe",
+        url: "https://stripe.com/",
+        image: "/images/icons-1.webp",
+        gif: "/images/icons-1g.webp",
+      },
+      {
+        name: "Resend",
+        url: "https://resend.com/",
+        image: "/images/icons-2.webp",
+      },
+      {
+        name: "Webflow",
+        url: "https://webflow.com/",
+        image: "/images/icons-3.webp",
       },
     ],
 
@@ -572,6 +702,36 @@ export const websiteData = {
         url: "https://cuberto.com/",
         image: "/images/interactive-5.webp",
         gif: "/images/interactive-5g.webp ",
+      },
+      {
+        name: "Webflow",
+        url: "https://webflow.com/",
+        image: "/images/interactive-6.webp",
+        gif: "/images/interactive-6g.webp ",
+      },
+      {
+        name: "Patreon",
+        url: "https://www.patreon.com/",
+        image: "/images/interactive-7.webp",
+        gif: "/images/interactive-7g.webp ",
+      },
+      {
+        name: "Method 1",
+        url: "https://method.au/",
+        image: "/images/interactive-8.webp",
+        gif: "/images/interactive-8g.webp",
+      },
+      {
+        name: "Method 2",
+        url: "https://method.au/",
+        image: "/images/interactive-9.webp",
+        gif: "/images/interactive-9g.webp",
+      },
+      {
+        name: "Best Things for Everything",
+        url: "https://shopping.google.com/m/bestthings/",
+        image: "/images/interactive-10.webp",
+        gif: "/images/interactive-10g.webp",
       },
     ],
 
@@ -748,6 +908,36 @@ export const websiteData = {
         image: "/images/scroll-effects-8.webp",
         gif: "/images/scroll-effects-8g.webp",
       },
+      {
+        name: "The Browser Company",
+        url: "https://thebrowser.company/",
+        image: "/images/scroll-effects-9.webp",
+        gif: "/images/scroll-effects-9g.webp",
+      },
+      {
+        name: "Cosmos",
+        url: "https://www.cosmos.so/",
+        image: "/images/scroll-effects-10.webp",
+        gif: "/images/scroll-effects-10g.webp",
+      },
+    ],
+
+    "search": [
+      {
+        name: "Coffe & Aroma",
+        url: "https://aroma-coffee-business-template.webflow.io/",
+        image: "/images/search-1.webp",
+      },
+      {
+        name: "Aquerone",
+        url: "https://www.aquerone.com/",
+        image: "/images/search-2.webp",
+      },
+      {
+        name: "Statskog",
+        url: "https://www.statskog.no/statskogmillionen#kart",
+        image: "/images/search-3.webp",
+      },
     ],
 
     "text-effects": [
@@ -813,6 +1003,29 @@ export const websiteData = {
         name: "Dotlinecode",
         url: "https://dotlinecode.com/",
         image: "/images/3d-6.webp",
+      },
+      {
+        name: "Resend",
+        url: "https://resend.com/",
+        image: "/images/3d-7.webp",
+        gif: "/images/3d-7g.webp ",
+      },
+      {
+        name: "Resend",
+        url: "https://resend.com/",
+        image: "/images/3d-8.webp",
+      },
+      {
+        name: "Cosmos",
+        url: "https://www.cosmos.so/",
+        image: "/images/3d-9.webp",
+        gif: "/images/3d-9g.webp",
+      },
+      {
+        name: "Webflow",
+        url: "https://webflow.com/",
+        image: "/images/3d-10.webp",
+        gif: "/images/3d-10g.webp ",
       },
     ],
   },

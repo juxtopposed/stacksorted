@@ -258,7 +258,8 @@ nav {
   	background-color: var(--background);
 }
 
-.website-card:hover > .card-info > h2{
+
+.website-card:hover > .card-info > h2 {
 	color: var(--primary);
 }
 

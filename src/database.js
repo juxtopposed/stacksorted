@@ -1014,6 +1014,7 @@ export const websiteData = {
         name: "Resend",
         url: "https://resend.com/",
         image: "/images/3d-8.webp",
+        code:"https://codepen.io/stranger1586/full/RwvjmdW"
       },
       {
         name: "Cosmos",

@@ -97,6 +97,7 @@ export const websiteData = {
         url: "https://www.cosmos.so/",
         image: "/images/buttons-17.webp",
         gif: "/images/buttons-17g.webp ",
+        code:"https://codepen.io/stranger1586/full/poGZvmZ"
       },
       {
         name: "CodeDotSpirit",
@@ -1021,6 +1022,7 @@ export const websiteData = {
         url: "https://www.cosmos.so/",
         image: "/images/3d-9.webp",
         gif: "/images/3d-9g.webp",
+        code:"https://codepen.io/stranger1586/full/dyajPro"
       },
       {
         name: "Webflow",

@@ -7,6 +7,12 @@ export const websiteData = {
         image: "/images/buttons-1.webp",
         code: "https://codepen.io/ThunderFound/pen/QWJBQwo",
       },
+       {
+        name: "Send Potion",
+        url: "https://sendpotion.com/",
+        image: "/images/buttons-50.webp",
+        code: "https://codepen.io/atulkadyan/pen/QWYOvzO",
+      },
       {
         name: "Rednecks",
         url: "https://redneck.media/",

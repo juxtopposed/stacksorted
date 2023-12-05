@@ -2,6 +2,12 @@ export const websiteData = {
   categories: {
     "buttons": [
       {
+        name: "Send Potion",
+        url: "https://sendpotion.com/",
+        image: "/images/buttons-1.webp",
+        code: "https://codepen.io/atulkadyan/pen/QWYOvzO",
+      },
+      {
         name: "Flowchef",
         url: "https://www.flowchef.co/",
         image: "/images/buttons-1.webp",

@@ -658,13 +658,13 @@ export const websiteData = {
         gif: "/images/hover-effects-8g.webp"
       },
       {
-        name: "Cool Typing Game",
+        name: "Cool Typing Game 1",
         url: "https://cooltypinggame.com/",
         image: "/images/hover-effects-9.webp",
         code: "https://codepen.io/boom123bam/pen/YzBboEJ",
       },
       {
-        name: "Cool Typing Game",
+        name: "Cool Typing Game 2",
         url: "https://cooltypinggame.com/",
         image: "/images/hover-effects-10.webp",
         gif: "/images/hover-effects-10g.webp",

@@ -215,6 +215,12 @@ export const websiteData = {
         gif: "/images/buttons-35g.webp",
         code: "https://codepen.io/mh_jsx/pen/JjxopOW"
       },
+      {
+        name: "Dinosaur Polo Club",
+        url: "https://dinopoloclub.com/",
+        image: "/images/buttons-36.webp",
+        gif: "/images/buttons-36g.webp"
+      },
     ],
 
     "border-effects": [

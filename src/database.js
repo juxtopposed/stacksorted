@@ -242,6 +242,13 @@ export const websiteData = {
         gif: "/images/buttons-39g.webp",
         iscodelink: true,
       },
+      {
+        name: "Send Potion",
+        url: "https://sendpotion.com/",
+        image: "/images/buttons-40.webp",
+        gif: "/images/buttons-40g.webp",
+        code: "https://codepen.io/atulkadyan/pen/QWYOvzO",
+      },
     ],
 
     "border-effects": [

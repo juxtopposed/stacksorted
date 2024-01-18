@@ -207,6 +207,7 @@ export const websiteData = {
         url: "https://inbase.me/agency",
         image: "/images/buttons-33.webp",
         gif: "/images/buttons-33g.webp",
+        code: "https://codepen.io/AJ-the-looper/pen/ZEPEKpv",
       },
       {
         name: "Cut the Code",
@@ -220,6 +221,39 @@ export const websiteData = {
         image: "/images/buttons-35.webp",
         gif: "/images/buttons-35g.webp",
         code: "https://codepen.io/mh_jsx/pen/JjxopOW"
+      },
+      {
+        name: "Dinosaur Polo Club",
+        url: "https://dinopoloclub.com/",
+        image: "/images/buttons-36.webp",
+        gif: "/images/buttons-36g.webp",
+      },
+      {
+        name: "Design Me Agency",
+        url: "www.designme.agency",
+        image: "/images/buttons-37.webp",
+        gif: "/images/buttons-37g.webp",
+      },
+      {
+        name: "Fortnite Buttons",
+        url: "https://codepen.io/Juxtopposed/pen/yLZmVrW",
+        image: "/images/buttons-38.webp",
+        gif: "/images/buttons-38g.webp",
+        iscodelink: true,
+      },
+      {
+        name: "Glassmorphic iOS Buttons",
+        url: "https://codepen.io/Juxtopposed/pen/mdvaezM",
+        image: "/images/buttons-39.webp",
+        gif: "/images/buttons-39g.webp",
+        iscodelink: true,
+      },
+      {
+        name: "Send Potion",
+        url: "https://sendpotion.com/",
+        image: "/images/buttons-40.webp",
+        gif: "/images/buttons-40g.webp",
+        code: "https://codepen.io/atulkadyan/pen/QWYOvzO",
       },
     ],
 
@@ -334,6 +368,16 @@ export const websiteData = {
         url: "https://method.au/",
         image: "/images/cards-13.webp",
       },
+      {
+        name: "Turbo Build",
+        url: "https://turbo.build/",
+        image: "/images/cards-14.webp",
+      },
+      {
+        name: "CSS Battle",
+        url: "https://cssbattle.dev/learn",
+        image: "/images/cards-15.webp",
+      },
     ],
 
     "custom-cursor": [
@@ -430,7 +474,7 @@ export const websiteData = {
       },
       {
         name: "Realtime Colors",
-        url: "https://realtimecolors.com/?colors=faf8fc-160d1c-dfcfb9-261631-5eb591",
+        url: "https://realtimecolors.com/",
         image: "/images/grids-2.webp",
       },
       {
@@ -519,6 +563,11 @@ export const websiteData = {
         url: "https://method.au/",
         image: "/images/grids-19.webp",
       },
+      {
+        name: "Supabase",
+        url: "https://supabase.com/",
+        image: "/images/grids-20.webp",
+      },
     ],
 
     "hamburger-menu": [
@@ -568,6 +617,12 @@ export const websiteData = {
         image: "/images/headers-3.webp",
         gif: "/images/headers-3g.webp",
       },
+      {
+        name: "Angel Rion - Cervi",
+        url: "https://www.angelrioncervi.com/work",
+        image: "/images/headers-4.webp",
+        gif: "/images/headers-4g.webp",
+      }
     ],
 
     "hover-effects": [
@@ -614,6 +669,19 @@ export const websiteData = {
         url: "https://tigermilkrestaurants.com/en/",
         image: "/images/hover-effects-8.webp",
         gif: "/images/hover-effects-8g.webp"
+      },
+      {
+        name: "Cool Typing Game 1",
+        url: "https://cooltypinggame.com/",
+        image: "/images/hover-effects-9.webp",
+        code: "https://codepen.io/boom123bam/pen/YzBboEJ",
+      },
+      {
+        name: "Cool Typing Game 2",
+        url: "https://cooltypinggame.com/",
+        image: "/images/hover-effects-10.webp",
+        gif: "/images/hover-effects-10g.webp",
+        code: "https://codepen.io/boom123bam/pen/Rwvmdmz",
       },
     ],
 
@@ -739,6 +807,24 @@ export const websiteData = {
         url: "https://shopping.google.com/m/bestthings/",
         image: "/images/interactive-10.webp",
         gif: "/images/interactive-10g.webp",
+      },
+      {
+        name: "Angel Rion - Cervi",
+        url: "https://www.angelrioncervi.com/work",
+        image: "/images/interactive-11.webp",
+        gif: "/images/interactive-11g.webp",
+      },
+      {
+        name: "Design Me Agency",
+        url: "www.designme.agency",
+        image: "/images/interactive-12.webp",
+        gif: "/images/interactive-12g.webp",
+      },
+      {
+        name: "Dog Studio",
+        url: "https://dogstudio.co/",
+        image: "/images/interactive-13.webp",
+        gif: "/images/interactive-13g.webp",
       },
     ],
 

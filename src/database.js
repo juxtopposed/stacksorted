@@ -249,6 +249,13 @@ export const websiteData = {
         gif: "/images/buttons-40g.webp",
         code: "https://codepen.io/atulkadyan/pen/QWYOvzO",
       },
+       {
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/buttons-41.webp",
+        gif: "/images/buttons-41g.webp",
+        code: "https://codepen.io/atulkadyan/pen/xxMPreE",
+      },
     ],
 
     "border-effects": [

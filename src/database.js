@@ -752,6 +752,7 @@ export const websiteData = {
         url: "https://thomasbosc.com/",
         image: "/images/interactive-2.webp",
         gif: "/images/interactive-2g.webp ",
+        code: "https://codepen.io/danuvip/pen/LYMYbpE"
       },
       {
         name: "Advanced Team",

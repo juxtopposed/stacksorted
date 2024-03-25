@@ -508,7 +508,7 @@ export const websiteData = {
       },
       {
         name: "CodeDotSpirit",
-        url: "https://codedotspirit.dev/",
+        url: "https://old.codedotspirit.dev/",
         image: "/images/grids-10.webp",
         gif: "/images/grids-10g.webp ",
       },

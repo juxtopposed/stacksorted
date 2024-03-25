@@ -243,6 +243,13 @@ export const websiteData = {
         iscodelink: true,
       },
       {
+        name: "Cuberto",
+        url: "https://cuberto.com/",
+        image: "/images/buttons-41.webp",
+        gif: "/images/buttons-41g.webp",
+        code: "https://codepen.io/atulkadyan/pen/xxMPreE",
+      },
+      {
         name: "Send Potion",
         url: "https://sendpotion.com/",
         image: "/images/buttons-40.webp",

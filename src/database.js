@@ -100,8 +100,8 @@ export const websiteData = {
         code:"https://codepen.io/stranger1586/full/poGZvmZ"
       },
       {
-        name: "CodeDotSpirit",
-        url: "https://codedotspirit.dev/",
+        name: "Louis Escher",
+        url: "https://louisescher.dev/",
         image: "/images/buttons-18.webp",
         gif: "/images/buttons-18g.webp ",
         code: "https://codepen.io/kalisnetwork/pen/jOQQQmj",

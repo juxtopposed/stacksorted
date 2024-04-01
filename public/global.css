@@ -362,7 +362,8 @@ aside {
 	align-items: center;
 	gap: 10px;
 	min-width: 200px;
-	
+	position: sticky;
+	top: 1rem;
 }
 
 .option {
@@ -574,6 +575,7 @@ aside {
 	aside {
 		position: fixed;
 		bottom: 0;
+		top: auto;
 		width: 100%;
 		box-sizing: border-box;
 		background-color: var(--secondary);

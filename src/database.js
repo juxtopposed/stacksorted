@@ -249,6 +249,13 @@ export const websiteData = {
         gif: "/images/buttons-40g.webp",
         code: "https://codepen.io/atulkadyan/pen/QWYOvzO",
       },
+      {
+        name: "Fancy Glowing Button",
+        url: "https://codepen.io/Juxtopposed/pen/JjVXRey",
+        image: "/images/buttons-41.webp",
+        gif: "/images/buttons-41g.webp",
+        iscodelink: true,
+      },
     ],
 
     "border-effects": [

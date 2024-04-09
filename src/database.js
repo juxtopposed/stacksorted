@@ -1124,6 +1124,12 @@ export const websiteData = {
         image: "/images/3d-10.webp",
         gif: "/images/3d-10g.webp ",
       },
+      {
+        name: "Github Globe",
+        url: "https://github.com/",
+        image: "/images/3d-11.webp",
+        code:"https://ui.aceternity.com/components/github-globe"
+      },
     ],
   },
 };

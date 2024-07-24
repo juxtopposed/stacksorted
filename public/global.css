@@ -109,7 +109,7 @@ h2 {
 }
 
 h2:hover {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 p {
@@ -132,8 +132,8 @@ p {
 }
 
 .btn:hover {
-  	background-color: var(--accent);
-  	color: var(--background);
+	background-color: var(--accent);
+	color: var(--background);
 }
 
 
@@ -170,11 +170,11 @@ nav {
 }
 
 .note {
-	font-size: var(--s); 
-	padding: 10px; 
-	border-radius: 20px; 
-	background-color: var(--primary); 
-	color: var(--background); 
+	font-size: var(--s);
+	padding: 10px;
+	border-radius: 20px;
+	background-color: var(--primary);
+	color: var(--background);
 	box-shadow: 0 0 0 5px var(--primary-a);
 	animation: alert 2s infinite linear;
 }
@@ -200,13 +200,21 @@ nav {
 }
 
 .main-content > main {
-  	width: 85%;
+	width: 85%;
 }
 
 .main-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
 	gap: 15px;
+	max-height: 70vh;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.main-grid::-webkit-scrollbar {
+	display: none;
 }
 
 @media screen and (max-width: 1345px) {
@@ -255,7 +263,7 @@ nav {
 }
 
 .website-card:hover {
-  	background-color: var(--background);
+	background-color: var(--background);
 }
 
 
@@ -331,7 +339,7 @@ nav {
 }
 
 .outbound:hover > svg > path {
-  	stroke: var(--background);
+	stroke: var(--background);
 }
 
 .site-link {
@@ -364,6 +372,15 @@ aside {
 	min-width: 200px;
 	position: sticky;
 	top: 1rem;
+
+	max-height: 68vh;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+aside::-webkit-scrollbar {
+	display: none;
 }
 
 .option {
@@ -403,15 +420,15 @@ aside {
 }
 
 .option:hover {
-  	background-color: var(--accent-a);
+	background-color: var(--accent-a);
 }
 
 .option.active:hover {
-  	background-color: var(--primary-l);
+	background-color: var(--primary-l);
 }
 
 .show {
-    display: flex !important;
+	display: flex !important;
 }
 
 
@@ -437,8 +454,8 @@ aside {
 }
 
 .modal-overlay[aria-hidden='true'] {
-  	opacity: 0;
-  	visibility: hidden;
+	opacity: 0;
+	visibility: hidden;
 }
 
 .modal {
@@ -471,12 +488,12 @@ aside {
 	cursor: pointer;
 	max-width: 50px;
 }
-  
+
 .modal-nav-button:hover {
 	background-color: var(--primary);
 	color: var(--background);
 }
-  
+
 
 .modal-nav {
 	display: flex;
@@ -504,16 +521,16 @@ aside {
 	transform: translate(50%);
 	animation: 1s ripple ease-out infinite;
 }
-  
+
 @keyframes ripple {
 	from {
-	  transform: scale(0);
-	  opacity: 1;
+		transform: scale(0);
+		opacity: 1;
 	}
-  
+
 	to {
-	  transform: scale(1);
-	  opacity: 0;
+		transform: scale(1);
+		opacity: 0;
 	}
 }
 
@@ -545,7 +562,7 @@ aside {
 	font-size: var(--s);
 	font-weight: 300;
 }
-  
+
 .footer-content {
 	width: 100%;
 	border-top: 1px solid var(--accent-a);
@@ -621,5 +638,5 @@ aside {
 	.note {
 		display: none;
 	}
-
+	
 }

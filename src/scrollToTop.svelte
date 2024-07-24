@@ -14,7 +14,6 @@
       const mainGrid = document.querySelector('.main-grid');
       
       showButton = window.scrollY > 100 || mainGrid.scrollTop > 100;
-      console.log(mainGrid.scrollTop);
     };
   
     onMount(() => {

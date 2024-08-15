@@ -22,7 +22,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 1em;
+        padding: 1em 3em;
         box-sizing: border-box;
         gap: 3em;
     }

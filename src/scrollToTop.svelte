@@ -4,17 +4,26 @@
     let showButton = false;
   
     const scrollToTop = () => {
+      const mainGrid = document.querySelector('.main-grid');
+
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      mainGrid.scrollTo({ top: 0, behavior: 'smooth' });
     };
   
     const handleScroll = () => {
-      showButton = window.scrollY > 100;
+      const mainGrid = document.querySelector('.main-grid');
+      
+      showButton = window.scrollY > 100 || mainGrid.scrollTop > 100;
     };
   
     onMount(() => {
+      const mainGrid = document.querySelector('.main-grid');
+
       window.addEventListener('scroll', handleScroll);
+      mainGrid.addEventListener('scroll', handleScroll);
       return () => {
         window.removeEventListener('scroll', handleScroll);
+        mainGrid.removeEventListener('scroll', handleScroll);
       };
     });
 </script>

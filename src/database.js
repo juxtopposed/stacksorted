@@ -514,8 +514,8 @@ export const websiteData = {
         image: "/images/grids-9.webp",
       },
       {
-        name: "CodeDotSpirit",
-        url: "https://old.codedotspirit.dev/",
+        name: "code.spirit",
+        url: "https://old.louisescher.dev/",
         image: "/images/grids-10.webp",
         gif: "/images/grids-10g.webp ",
       },

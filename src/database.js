@@ -479,8 +479,8 @@ export const websiteData = {
         image: "/images/grids-2.webp",
       },
       {
-        name: "Apple iPhone 14",
-        url: "https://www.apple.com/iphone-14/",
+        name: "Apple iPhone 16",
+        url: "https://apple.com/iphone-16/",
         image: "/images/grids-3.webp",
       },
       {
@@ -568,6 +568,11 @@ export const websiteData = {
         name: "Supabase",
         url: "https://supabase.com/",
         image: "/images/grids-20.webp",
+      },
+      {
+        name: "Dub",
+        url: "https://dub.co/",
+        image: "/images/grids-21.webp",
       },
     ],
 

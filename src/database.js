@@ -569,6 +569,11 @@ export const websiteData = {
         url: "https://supabase.com/",
         image: "/images/grids-20.webp",
       },
+      {
+        name: "Dub",
+        url: "https://dub.co/",
+        image: "/images/grids-21.webp",
+      },
     ],
 
     "hamburger-menu": [

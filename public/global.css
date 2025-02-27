@@ -180,7 +180,7 @@ nav {
 }
 
 @keyframes alert {
-	0% {box-shadow: 0 0 0 0px var(--primary-a);}
+	0% {box-shadow: 0 0 0 0 var(--primary-a);}
 	80% {box-shadow: 0 0 0 8px var(--primary-a), 0 0 0 5px var(--primary-a);}
 	100% {box-shadow: 0 0 0 8px var(--primary-a2), 0 0 0 10px var(--primary-a2);}
 }
@@ -243,8 +243,9 @@ nav {
 
 @media screen and (max-width: 600px) {
 	.main-grid {
-		grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+		grid-template-columns: repeat(auto-fit, minmax(222px, 320px));
 		justify-content: center;
+		overflow-x: hidden;
 	}
 }
 
@@ -638,5 +639,5 @@ aside::-webkit-scrollbar {
 	.note {
 		display: none;
 	}
-	
+
 }

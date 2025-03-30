@@ -1,6 +1,6 @@
 export const websiteData = {
   categories: {
-    "buttons": [
+    buttons: [
       {
         name: "Flowchef",
         url: "https://www.flowchef.co/",
@@ -97,7 +97,7 @@ export const websiteData = {
         url: "https://www.cosmos.so/",
         image: "/images/buttons-17.webp",
         gif: "/images/buttons-17g.webp ",
-        code:"https://codepen.io/stranger1586/full/poGZvmZ"
+        code: "https://codepen.io/stranger1586/full/poGZvmZ",
       },
       {
         name: "Louis Escher",
@@ -169,7 +169,7 @@ export const websiteData = {
         url: "https://shopify.supply/",
         image: "/images/buttons-28.webp",
         gif: "/images/buttons-28g.webp",
-        code:"https://codepen.io/kalisnetwork/pen/BaGebQK",
+        code: "https://codepen.io/kalisnetwork/pen/BaGebQK",
       },
       {
         name: "Lunchbox",
@@ -214,7 +214,7 @@ export const websiteData = {
         url: "https://method.au/",
         image: "/images/buttons-35.webp",
         gif: "/images/buttons-35g.webp",
-        code: "https://codepen.io/mh_jsx/pen/JjxopOW"
+        code: "https://codepen.io/mh_jsx/pen/JjxopOW",
       },
       {
         name: "Dinosaur Polo Club",
@@ -298,7 +298,7 @@ export const websiteData = {
       },
     ],
 
-    "cards": [
+    cards: [
       {
         name: "Quai Network",
         url: "https://qu.ai/#what-can-you-build",
@@ -467,7 +467,7 @@ export const websiteData = {
       },
     ],
 
-    "grids": [
+    grids: [
       {
         name: "'22 Companies.Tools",
         url: "https://recap.companies.tools/",
@@ -599,7 +599,7 @@ export const websiteData = {
       },
     ],
 
-    "headers": [
+    headers: [
       {
         name: "Patreon",
         url: "https://www.patreon.com/",
@@ -623,7 +623,7 @@ export const websiteData = {
         url: "https://www.angelrioncervi.com/work",
         image: "/images/headers-4.webp",
         gif: "/images/headers-4g.webp",
-      }
+      },
     ],
 
     "hover-effects": [
@@ -657,19 +657,19 @@ export const websiteData = {
         name: "Linear",
         url: "https://linear.app/",
         image: "/images/hover-effects-6.webp",
-        gif: "/images/hover-effects-6g.webp"
+        gif: "/images/hover-effects-6g.webp",
       },
       {
         name: "Unbench",
         url: "https://unbench.us/",
         image: "/images/hover-effects-7.webp",
-        gif: "/images/hover-effects-7g.webp"
+        gif: "/images/hover-effects-7g.webp",
       },
       {
         name: "Tigermilk",
         url: "https://tigermilkrestaurants.com/en/",
         image: "/images/hover-effects-8.webp",
-        gif: "/images/hover-effects-8g.webp"
+        gif: "/images/hover-effects-8g.webp",
       },
       {
         name: "Cool Typing Game 1",
@@ -686,7 +686,7 @@ export const websiteData = {
       },
     ],
 
-    "icons": [
+    icons: [
       {
         name: "Stripe",
         url: "https://stripe.com/",
@@ -717,7 +717,7 @@ export const websiteData = {
         url: "https://www.teamgeek.io/",
         image: "/images/image-effects-2.webp",
         gif: "/images/image-effects-2g.webp ",
-        code: "https://codepen.io/Juxtopposed/pen/GRPRPyR"
+        code: "https://codepen.io/Juxtopposed/pen/GRPRPyR",
       },
       {
         name: "Romain Avalle",
@@ -730,14 +730,14 @@ export const websiteData = {
         url: "https://cuberto.com/",
         image: "/images/image-effects-4.webp",
         gif: "/images/image-effects-4g.webp ",
-        code: "https://codepen.io/Juxtopposed/pen/VwVoEBr"
+        code: "https://codepen.io/Juxtopposed/pen/VwVoEBr",
       },
       {
         name: "Zajno",
         url: "https://zajno.com/",
         image: "/images/image-effects-5.webp",
         gif: "/images/image-effects-5g.webp ",
-        code: "https://codepen.io/Juxtopposed/pen/MWZWpVQ"
+        code: "https://codepen.io/Juxtopposed/pen/MWZWpVQ",
       },
       {
         name: "Obys",
@@ -759,7 +759,7 @@ export const websiteData = {
         url: "https://thomasbosc.com/",
         image: "/images/interactive-2.webp",
         gif: "/images/interactive-2g.webp ",
-        code: "https://codepen.io/danuvip/pen/LYMYbpE"
+        code: "https://codepen.io/danuvip/pen/LYMYbpE",
       },
       {
         name: "Advanced Team",
@@ -830,7 +830,7 @@ export const websiteData = {
       },
     ],
 
-    "links": [
+    links: [
       {
         name: "Oaks Lane",
         url: "https://oakslane.ch/en",
@@ -951,6 +951,7 @@ export const websiteData = {
         url: "https://press.stripe.com/",
         image: "/images/progress-bar-4.webp",
         gif: "/images/progress-bar-4g.webp ",
+        code: "https://codepen.io/stranger1586/full/JojmzMx",
       },
     ],
 
@@ -1017,7 +1018,7 @@ export const websiteData = {
       },
     ],
 
-    "search": [
+    search: [
       {
         name: "Coffe & Aroma",
         url: "https://aroma-coffee-business-template.webflow.io/",
@@ -1109,14 +1110,14 @@ export const websiteData = {
         name: "Resend",
         url: "https://resend.com/",
         image: "/images/3d-8.webp",
-        code:"https://codepen.io/stranger1586/full/RwvjmdW"
+        code: "https://codepen.io/stranger1586/full/RwvjmdW",
       },
       {
         name: "Cosmos",
         url: "https://www.cosmos.so/",
         image: "/images/3d-9.webp",
         gif: "/images/3d-9g.webp",
-        code:"https://codepen.io/stranger1586/full/dyajPro"
+        code: "https://codepen.io/stranger1586/full/dyajPro",
       },
       {
         name: "Webflow",

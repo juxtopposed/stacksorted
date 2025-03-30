@@ -950,8 +950,7 @@ export const websiteData = {
         name: "Stripe Press",
         url: "https://press.stripe.com/",
         image: "/images/progress-bar-4.webp",
-        gif: "/images/progress-bar-4g.webp ",
-        code: "https://codepen.io/stranger1586/full/JojmzMx",
+        gif: "/images/progress-bar-4g.webp "
       },
     ],
 
@@ -1094,6 +1093,7 @@ export const websiteData = {
         url: "https://press.stripe.com/",
         image: "/images/3d-5.webp",
         gif: "/images/3d-5g.webp ",
+        code: "https://codepen.io/stranger1586/full/JojmzMx"
       },
       {
         name: "Dotlinecode",

@@ -708,7 +708,7 @@ export const websiteData = {
     "image-effects": [
       {
         name: "Outdated",
-        url: "https://www.outdated.site/",
+        url: "https://outdated.vercel.app/",
         image: "/images/image-effects-1.webp",
         gif: "/images/image-effects-1g.webp ",
       },

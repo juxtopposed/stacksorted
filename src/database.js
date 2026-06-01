@@ -379,6 +379,11 @@ export const websiteData = {
         url: "https://cssbattle.dev/learn",
         image: "/images/cards-15.webp",
       },
+      {
+        name: "Batin Studio",
+        url: "https://batinstudio.com/",
+        image: "/images/cards-16.webp",
+      },
     ],
 
     "custom-cursor": [
@@ -1060,6 +1065,11 @@ export const websiteData = {
         url: "https://www.kaploom.com/",
         image: "/images/text-effects-4.webp",
         gif: "/images/text-effects-4g.webp ",
+      },
+      {
+        name: "Wispread",
+        url: "https://wispread.com/",
+        image: "/images/text-effects-5.webp",
       },
     ],
 

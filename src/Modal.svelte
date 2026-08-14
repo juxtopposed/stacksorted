@@ -60,7 +60,7 @@
 <div class="modal-overlay" on:click|stopPropagation={handleOverlayClick}>
     <div class="modal" aria-modal="true">
       <div class="card-info">
-        <h2><a href="{websiteUrl}" target="_blank">{websiteName}</a></h2>
+        <h2><a href="{websiteUrl}" target="_blank" rel="noopener noreferrer">{websiteName}</a></h2>
         <div class="modal-nav">
 
           <svg on:click={prevModal} class="modal-nav-button" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +90,7 @@
         
         <!-- svelte-ignore missing-declaration -->
           {#if websiteCode && websiteCode !== null}
-            <a href="{websiteCode}" target="_blank" class="outbound code-link">
+            <a href="{websiteCode}" target="_blank" rel="noopener noreferrer" class="outbound code-link">
               <span>Check Code</span>
               <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="30" height="29" rx="3" fill="transparent"/>
@@ -99,7 +99,7 @@
               </svg>                   
             </a>
           {:else if !codeLinkBoolean} 
-            <a href="https://forms.gle/7gi8eLZZoQmbVyst5" target="_blank" class="outbound code-link empty-code">
+            <a href="https://forms.gle/7gi8eLZZoQmbVyst5" target="_blank" rel="noopener noreferrer" class="outbound code-link empty-code">
               <span>Add CodePen Link</span>
               <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="30" height="29" rx="3" fill="transparent"/>
@@ -109,7 +109,7 @@
             </a>
           {/if}
 
-          <a href="{websiteUrl}" target="_blank" class="outbound site-link">
+          <a href="{websiteUrl}" target="_blank" rel="noopener noreferrer" class="outbound site-link">
             <span>Visit Site</span>
             <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="30" height="29" rx="3" fill="transparent"/>

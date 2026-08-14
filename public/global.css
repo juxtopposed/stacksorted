@@ -207,14 +207,6 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
 	gap: 15px;
-	max-height: 70vh;
-	overflow-y: scroll;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
-}
-
-.main-grid::-webkit-scrollbar {
-	display: none;
 }
 
 @media screen and (max-width: 1345px) {
